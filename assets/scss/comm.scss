@@ -1,4 +1,7 @@
-@import "variables", "mixins", "fonts", "reset";
+@import "variables", "mixins", "fonts", "resets";
 
+* {
+  font-family: "Pretendard", "pretendard-regular";
+}
 
 @import "main";
