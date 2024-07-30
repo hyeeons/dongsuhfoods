@@ -1,10 +1,4 @@
-h1 {
-	font-size: 20px;
-	color: yellow;
-	font-weight: 600;
+@import "variables", "mixins", "fonts", "reset";
 
-	p { 
-		font-size: 40px;
-		color: aqua;
-	}
-}
+
+@import "main";
