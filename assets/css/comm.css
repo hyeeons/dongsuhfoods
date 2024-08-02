@@ -299,7 +299,7 @@ legend {
   transform: translateX(-50%);
   opacity: 0.3;
   z-index: -1;
-  max-width: 120rem;
+  max-width: 1280px;
 }
 
 .position-wrap {
@@ -321,11 +321,11 @@ legend {
   z-index: 100;
   width: 100%;
   border-bottom: none;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
 #header .hd-inner {
   display: flex;
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
   height: 100px;
   align-items: center;
@@ -338,7 +338,7 @@ legend {
   z-index: 1;
   background: #ffffff;
   width: 100%;
-  height: 470px;
+  height: 440px;
   display: none;
 }
 
@@ -356,7 +356,7 @@ legend {
   color: #ffffff;
   text-align: center;
   padding: 38px 0;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
 .nav-list .nav-list-depth2 {
   position: absolute;
@@ -375,8 +375,55 @@ legend {
   line-height: normal;
   color: #333333;
   padding: 13px 0;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
 .nav-list .nav-list-depth2 a:hover {
   color: #ef383b;
+}
+
+.main-video {
+  width: 1920px;
+}
+
+.wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  background: lightblue;
+}
+
+.sec-01 {
+  background: lightgoldenrodyellow;
+  height: 314px;
+}
+
+.sec-02 {
+  background: lightgray;
+  height: 753px;
+}
+.sec-02 img {
+  display: none;
+}
+
+.sec-03 {
+  background: lightgreen;
+  height: 1940px;
+}
+.sec-03 img {
+  display: none;
+}
+
+.sec-04 {
+  background: lemonchiffon;
+  height: 1196px;
+}
+.sec-04 img {
+  display: none;
+}
+
+.sec-05 {
+  background: lavender;
+  height: 1010px;
+}
+.sec-05 img {
+  display: none;
 }/*# sourceMappingURL=comm.css.map */
