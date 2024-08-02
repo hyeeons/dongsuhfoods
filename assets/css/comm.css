@@ -278,55 +278,100 @@ legend {
   color: #333333;
 }
 
+#logo {
+  width: 144px;
+  height: 54px;
+  text-align: center;
+  background-image: url(../../images/comm/logo.png);
+  background-size: cover;
+  text-indent: -9999px;
+}
+
 .design_pc {
   position: absolute;
   top: 0;
-  left: -3%;
+  left: 50%;
+  transform: translateX(-50%);
   opacity: 0.3;
   z-index: -1;
-  max-width: 1920px;
+  max-width: 120rem;
 }
 
-.wrap {
-  margin: 0 auto;
-  max-width: 1280px;
+.position-wrap {
+  position: relative;
 }
 
 #header {
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 1000;
   width: 100%;
-  height: 107px;
-  background: lightblue;
-  opacity: 0.5;
+  height: 100px;
 }
-#header .inner {
+#header .hd-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  border-bottom: none;
+  transition: all 0.3s ease;
+}
+#header .hd-inner {
   display: flex;
-  justify-content: center;
+  width: 1280px;
+  margin: 0 auto;
+  height: 100px;
   align-items: center;
   gap: 50px;
 }
-
-#logo {
-  width: 143px;
-  height: 43px;
-  text-align: center;
+#header .nav-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #ffffff;
+  width: 100%;
+  height: 470px;
+  display: none;
 }
 
-.gnb-wrap .nav-list {
+.nav-list {
   display: flex;
-  justify-content: center;
 }
-.gnb-wrap .nav-list-depth1 {
-  width: 140px;
-  height: 107px;
-  text-align: center;
-  padding: 35px 0;
+.nav-list .nav-list-depth1 {
+  width: 190px;
 }
-.gnb-wrap .nav-list-depth1 a {
+.nav-list .nav-list-depth1 a {
+  display: block;
   font-size: 21px;
   font-weight: 600;
   line-height: 1.3;
+  color: #ffffff;
+  text-align: center;
+  padding: 38px 0;
+  transition: all 0.3s ease;
 }
-.gnb-wrap .nav-list-depth2 {
+.nav-list .nav-list-depth2 {
+  position: absolute;
+  top: 100%;
+  z-index: 100;
   display: none;
+  padding-top: 20px;
+}
+.nav-list .nav-list-depth2 li {
+  width: 190px;
+}
+.nav-list .nav-list-depth2 a {
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: normal;
+  color: #333333;
+  padding: 13px 0;
+  transition: all 0.3s ease;
+}
+.nav-list .nav-list-depth2 a:hover {
+  color: #ef383b;
 }/*# sourceMappingURL=comm.css.map */
