@@ -274,7 +274,7 @@ legend {
 
 * {
   font-family: "Pretendard", "pretendard-regular";
-  font-size: 16px;
+  font-size: 17px;
   color: #333333;
 }
 
@@ -371,8 +371,8 @@ legend {
 .nav-list .nav-list-depth2 a {
   display: block;
   font-size: 17px;
-  font-weight: 500;
   line-height: normal;
+  font-weight: 500;
   color: #333333;
   padding: 13px 0;
   transition: all 0.1s ease;
@@ -394,6 +394,63 @@ legend {
 .sec-01 {
   background: lightgoldenrodyellow;
   height: 314px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 71px;
+}
+.sec-01 a {
+  font-size: 17px;
+  line-height: normal;
+}
+.sec-01 .contents-box {
+  width: 33.333%;
+}
+.sec-01 .contents {
+  height: 145px;
+}
+.sec-01 .sec-01-tit {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 14px;
+}
+.sec-01 .more-tit {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  gap: 5px;
+}
+.sec-01 .news a {
+  display: block;
+  padding: 4.5px 0;
+}
+.sec-01 .social ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec-01 .social li {
+  width: 50%;
+}
+.sec-01 .social a {
+  display: block;
+  padding: 4.5px 0;
+}
+.sec-01 .stock .price {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sec-01 .stock .price p {
+  font-size: 33px;
+  font-weight: 700;
+  line-height: normal;
+}
+.sec-01 .stock .date {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 10px;
 }
 
 .sec-02 {
