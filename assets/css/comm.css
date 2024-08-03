@@ -431,9 +431,6 @@ img {
   font-size: 17px;
   line-height: normal;
 }
-.sec-01 .contents-box {
-  width: 33.333%;
-}
 .sec-01 .contents {
   height: 145px;
 }
@@ -448,20 +445,29 @@ img {
   font-weight: 600;
   line-height: normal;
 }
+.sec-01 .news {
+  width: 40%;
+}
 .sec-01 .news a {
   display: block;
   padding: 4.5px 0;
+}
+.sec-01 .social {
+  width: 40%;
 }
 .sec-01 .social ul {
   display: flex;
   flex-wrap: wrap;
 }
 .sec-01 .social li {
-  width: 50%;
+  width: 44%;
 }
 .sec-01 .social a {
   display: block;
   padding: 4.5px 0;
+}
+.sec-01 .stock {
+  width: 20%;
 }
 .sec-01 .stock .price {
   display: flex;
@@ -474,6 +480,7 @@ img {
   line-height: normal;
 }
 .sec-01 .stock .date {
+  display: block;
   font-size: 15px;
   font-weight: 600;
   line-height: normal;
