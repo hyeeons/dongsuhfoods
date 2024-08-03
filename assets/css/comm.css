@@ -638,6 +638,15 @@ img {
   margin: 0 auto;
   padding: 40px 0;
   padding-bottom: 40px;
+  position: relative;
+}
+.ft-wrap hr {
+  display: block;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160%;
 }
 
 .ft-top-box {
