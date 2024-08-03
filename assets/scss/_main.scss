@@ -5,7 +5,6 @@
 	transform: translateX(-50%);
 	opacity: 0.3;
 	z-index: -1;
-	max-width: 1280px;
 }
 
 .position-wrap {
@@ -102,18 +101,17 @@
 	max-width: 1280px;
 	margin: 0 auto;
 	background: lightblue;
+	opacity: 0.5;
 }
 
 .sec-01 {
-	background: lightgoldenrodyellow;
-	height: 314px;
+	// background: lightgoldenrodyellow;
 	display: flex;
 	justify-content: space-between;
 	padding-top: 60px;
 	a {
 		@include medium-17
 	}
-
 	.contents-box {
 		width: 33.333%;
 	}
@@ -176,16 +174,22 @@
 			padding-top: 10px;
 		}
 	}
-
-
-
 }
 
 .sec-02 {
-	background: lightgray;
-	height: 753px;
+	// height: 753px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 150px 0;
+	.sec-tit {
+		background: lightcoral;
+	}
+	.sec-02-img {
+		width: 55%;
+	}
 	img {
-		display: none;
+		width: 100%;
 	}
 }
 
