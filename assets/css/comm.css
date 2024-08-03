@@ -301,6 +301,13 @@ legend {
   padding-top: 185px;
 }
 
+.sec-sub-tit {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 21px;
+  line-height: normal;
+}
+
 .more-tit {
   position: relative;
   display: inline-block;
@@ -490,6 +497,7 @@ img {
   padding-bottom: 180px;
 }
 .sec-02 .sec-tit {
+  padding: 0;
   background: lightcoral;
 }
 .sec-02 .sec-02-img {
@@ -545,11 +553,29 @@ img {
 }
 
 .sec-04 {
-  background: lemonchiffon;
-  height: 1196px;
+  padding-bottom: 150px;
 }
-.sec-04 img {
-  display: none;
+.sec-04 .sec-04-contents {
+  padding-top: 63px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-04 .list-box {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  padding-top: 20px;
+}
+.sec-04 .list-box .list {
+  width: 20%;
+}
+.sec-04 .list-box a {
+  display: block;
+  font-size: 31px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
 }
 
 .sec-05 {
