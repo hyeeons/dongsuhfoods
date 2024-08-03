@@ -20,8 +20,10 @@
 }
 
 .sec-tit {
+	text-align: center;
 	@include bold-55;
-	line-height: 1.3
+	line-height: 1.3;
+	padding-top: 185px;
 }
 
 // 더보기 
