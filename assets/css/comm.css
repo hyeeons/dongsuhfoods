@@ -488,9 +488,11 @@ img {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 180px;
+  position: relative;
 }
 .sec-02 .sec-tit {
   padding: 0;
+  text-align: left;
 }
 .sec-02 .sec-02-img {
   width: 55%;
@@ -499,7 +501,20 @@ img {
   width: 100%;
 }
 
+.sec-03-wrap {
+  height: 1940px;
+}
+
+.sec-box {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .sec-03 {
+  position: absolute;
+  top: 210%;
+  left: 0;
+  width: 100%;
   background: #F8F8F8;
   padding-bottom: 640px;
 }
@@ -510,7 +525,7 @@ img {
 .sec-03 .sec-03-box {
   position: relative;
 }
-.sec-03 .sec-03-wrap {
+.sec-03 .sec-03-contents {
   display: flex;
   flex-direction: column;
   gap: 450px;
