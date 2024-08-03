@@ -18,6 +18,16 @@
     font-weight: 600;
     line-height: normal;
 }
+@mixin semibold-25 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+}
+@mixin semibold-23 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: normal;
+}
 
 @mixin semibold-21 {
     font-size: 21px;
@@ -52,8 +62,8 @@
     line-height: normal;
 }
 
-@mixin bold-55 {
-    font-size: 55px;
+@mixin bold-51 {
+    font-size: 51px;
     font-weight: 700;
     line-height: normal;
 }
