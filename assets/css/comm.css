@@ -396,7 +396,7 @@ legend {
   height: 314px;
   display: flex;
   justify-content: space-between;
-  padding-top: 71px;
+  padding-top: 60px;
 }
 .sec-01 a {
   font-size: 17px;
@@ -415,11 +415,23 @@ legend {
   padding-bottom: 14px;
 }
 .sec-01 .more-tit {
+  position: relative;
+  display: block;
+}
+.sec-01 .more-tit a {
+  display: block;
   font-size: 15px;
   font-weight: 600;
   line-height: normal;
-  display: flex;
-  gap: 5px;
+}
+.sec-01 .more-tit::after {
+  font-family: "Line Awesome Free";
+  content: "\f061";
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 45px;
+  transform: translateY(-50%);
 }
 .sec-01 .news a {
   display: block;
