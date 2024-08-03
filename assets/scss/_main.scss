@@ -1,11 +1,11 @@
-.design_pc {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
-	opacity: 0.3;
-	z-index: -1;
-}
+// .design_pc {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 50%;
+// 	transform: translateX(-50%);
+// 	opacity: 0.3;
+// 	z-index: -1;
+// }
 
 .position-wrap {
 	position: relative;
@@ -100,13 +100,10 @@
 .wrap {
 	max-width: 1280px;
 	margin: 0 auto;
-	background: lightblue;
-	opacity: 0.5;
 }
 
 // sec-01 뉴스소식
 .sec-01 {
-	// background: lightgoldenrodyellow;
 	display: flex;
 	justify-content: space-between;
 	padding: 60px 0 150px;
@@ -174,7 +171,6 @@
 	padding-bottom: 180px;
 	.sec-tit {
 		padding: 0;
-		background: lightcoral;
 	}
 	.sec-02-img {
 		width: 55%;
@@ -208,7 +204,7 @@
 		left: 0;
 
 		.img-box {
-			background: white;
+			background: $white;
 			width: 341px;
 			height: 341px;
 			border-radius: 10px;
@@ -243,7 +239,6 @@
 		padding-top: 20px;
 		.list {
 			width: 20%;
-			// background: rebeccapurple;
 		}
 		a {
 			display: block;
@@ -255,11 +250,10 @@
 
 // sec-05 TV CF
 .sec-05 {
-	background: lavender;
-	height: 1010px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-bottom: 300px;
 	.cf-img-box {
 		display: flex;
 		gap: 42px;
@@ -281,6 +275,49 @@
 			@include semibold-27;
 			padding-top: 8px;
 		}
+		}
+	}
+}
+
+// 풋터
+.ft-wrap {
+	display: flex;
+	flex-direction: column;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.ft-top-box {
+	padding-top: 50px;
+	padding-bottom: 27px;
+	ul {
+		display: flex;
+		gap: 30px;
+		a {
+			@include medium-13;
+		}
+	}
+}
+
+.ft-box {
+	display: flex;
+	justify-content: space-between;
+	span {
+		@include medium-15;
+	}
+	.ft-goto {
+		display: flex;
+		gap: 10px;
+		align-items: center;
+		.goto-site {
+			width: 185px;
+			height: 45px;
+			border: 1px solid $gray_E3;
+			border-radius: 10px;
+		}
+		span {
+			display: inline-block;
+			padding: 11px 0;
+			padding-left: 20px;
 		}
 	}
 }
