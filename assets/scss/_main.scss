@@ -108,7 +108,7 @@
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	padding: 48px 0 135px;
+	padding: 48px 0 150px;
 	a {
 		@include medium-17
 	}
@@ -172,7 +172,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-bottom: 180px;
+	padding-bottom: 260px;
 	position: relative;
 	.sec-tit {
 		padding: 0;
@@ -198,7 +198,7 @@
 	margin: 0 auto;
 	.sec-tit {
 		text-align: center;
-		padding-bottom: 85px;
+		padding-bottom: 100px;
 	}
 	.sec-03-box {
 		position: relative;
@@ -217,8 +217,8 @@
 
 		.img-box {
 			background: $white;
-			width: 230px;
-			height: 230px;
+			width: 210px;
+			height: 210px;
 			border-radius: 10px;
 			img {
 				display: block;
@@ -237,6 +237,8 @@
 		}
 	}	
 }
+
+
 
 // sec-04
 .sec-04 {

@@ -294,7 +294,7 @@ legend {
 
 .sec-tit {
   text-align: center;
-  font-size: 51px;
+  font-size: 49px;
   font-weight: 700;
   line-height: normal;
   line-height: 1.3;
@@ -425,7 +425,7 @@ img {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 48px 0 135px;
+  padding: 48px 0 150px;
 }
 .sec-01 a {
   font-size: 17px;
@@ -486,7 +486,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 180px;
+  padding-bottom: 260px;
   position: relative;
 }
 .sec-02 .sec-tit {
@@ -511,7 +511,7 @@ img {
 }
 .sec-03 .sec-tit {
   text-align: center;
-  padding-bottom: 85px;
+  padding-bottom: 100px;
 }
 .sec-03 .sec-03-box {
   position: relative;
@@ -530,8 +530,8 @@ img {
 }
 .sec-03 .sec-03-img .img-box {
   background: #ffffff;
-  width: 230px;
-  height: 230px;
+  width: 210px;
+  height: 210px;
   border-radius: 10px;
 }
 .sec-03 .sec-03-img .img-box img {

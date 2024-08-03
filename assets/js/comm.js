@@ -24,6 +24,6 @@ $(function () {
 
 
 
-AOS.init();
+AOS.init({ duration: 1000, easing: "ease-in-out", dealy: 0 });
 
 
