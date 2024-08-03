@@ -308,6 +308,10 @@ legend {
   line-height: normal;
 }
 
+.sec-tit-box {
+  padding-bottom: 63px;
+}
+
 .more-tit {
   position: relative;
   display: inline-block;
@@ -556,7 +560,6 @@ img {
   padding-bottom: 150px;
 }
 .sec-04 .sec-04-contents {
-  padding-top: 63px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -581,7 +584,34 @@ img {
 .sec-05 {
   background: lavender;
   height: 1010px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.sec-05 img {
-  display: none;
+.sec-05 .cf-img-box {
+  display: flex;
+  gap: 42px;
+}
+.sec-05 .cf-img-box .cf-img {
+  width: 751px;
+  height: 423px;
+}
+.sec-05 .cf-img-box .cf-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sec-05 .cf-img-box .img-text {
+  padding-top: 32px;
+}
+.sec-05 .cf-img-box .img-text span {
+  font-size: 17px;
+  line-height: normal;
+}
+.sec-05 .cf-img-box .img-text p {
+  font-size: 27px;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 8px;
 }/*# sourceMappingURL=comm.css.map */
