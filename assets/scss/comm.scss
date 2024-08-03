@@ -24,4 +24,29 @@
 	line-height: 1.3
 }
 
+// 더보기 
+.more-tit {
+	position: relative;
+	display: inline-block;
+	a {
+		padding: 0;
+		display: block;
+		@include semibold-15;
+	}
+	&::after {
+		font-family: 'Line Awesome Free';
+		content:"\f061";
+		font-weight: 900;
+		position: absolute;
+		top: 50%;
+		left: 105%;
+		transform: translateY(-48%);
+	}
+}
+
+// 이미지
+img {
+	border-radius: 10px;
+}
+
 @import "main";
