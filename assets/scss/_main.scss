@@ -96,6 +96,9 @@
 }
 
 // 메인
+.wrap {
+	overflow: hidden;
+}
 
 // .wrap {
 // 	max-width: $maxwidth;
@@ -210,13 +213,15 @@
 		flex-direction: column;
 		gap: 304px;
 	}
+	
 	.sec-03-img {
 		display: flex;
 		gap: 25px;
 		position: absolute;
 		top: 50px;
 		left: 0;
-
+		overflow: hidden;
+	}
 		.img-box {
 			background: $white;
 			width: 210px;
@@ -239,7 +244,7 @@
 			font-size: 31px;
 		}
 	}	
-}
+
 
 
 

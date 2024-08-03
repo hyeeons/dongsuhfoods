@@ -420,6 +420,10 @@ img {
   width: 1920px;
 }
 
+.wrap {
+  overflow: hidden;
+}
+
 .sec-01 {
   max-width: 1200px;
   margin: 0 auto;
@@ -534,26 +538,28 @@ img {
   position: absolute;
   top: 50px;
   left: 0;
+  overflow: hidden;
 }
-.sec-03 .sec-03-img .img-box {
+.sec-03 .img-box {
   background: #ffffff;
   width: 210px;
   height: 210px;
   border-radius: 10px;
 }
-.sec-03 .sec-03-img .img-box img {
+.sec-03 .img-box img {
   display: block;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.sec-03 .more-tit a {
+
+.more-tit a {
   font-size: 25px;
   font-weight: 600;
   line-height: normal;
 }
-.sec-03 .more-tit::after {
+.more-tit::after {
   font-size: 31px;
 }
 

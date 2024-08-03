@@ -26,6 +26,3 @@ $(function () {
 // aos
 AOS.init({ duration: 1000, easing: "ease-in-out", dealy: 0 });
 
-// gsap
-
-gsap.to(".green", { rotation: 360, x: 100, duration: 1 });
