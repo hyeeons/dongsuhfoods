@@ -19,6 +19,10 @@
 		display: block;	}
 }
 
+h3 {
+	@include semibold-25;
+}
+
 .sec-tit {
 	text-align: center;
 	@include bold-49;

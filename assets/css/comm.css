@@ -292,6 +292,12 @@ legend {
   display: block;
 }
 
+h3 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .sec-tit {
   text-align: center;
   font-size: 49px;
@@ -581,40 +587,26 @@ img {
 }
 
 .sec-04 {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 150px;
-  background: #ffffff;
+  height: 1000px;
 }
 .sec-04 .sec-04-contents {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
 }
-.sec-04 .sec-04-contents .img-box {
-  width: 90%;
+.sec-04 .tab {
+  width: inherit;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.sec-04 .sec-04-contents img {
+.sec-04 .tab h3 {
+  display: inline-block;
   width: 100%;
-}
-.sec-04 .list-box {
-  display: flex;
-  flex-direction: row;
-  width: 85%;
-  padding-top: 36px;
-}
-.sec-04 .list-box .list {
-  width: 20%;
-}
-.sec-04 .list-box a {
-  display: block;
-  font-size: 25px;
-  font-weight: 600;
-  line-height: normal;
-  text-align: center;
 }
 
 .sec-05-wrap {
+  display: none;
   background: #F8F8F8;
 }
 
