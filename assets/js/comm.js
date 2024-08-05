@@ -20,6 +20,13 @@ $(function () {
 	$(".nav-list-depth1 > a").mouseleave(function () {
 		$(this).css("color", "#333333")
 	})
+
+	// tab
+	$(".txt-box").on("click", function (event) {
+		event.preventDefault();
+		$(".tab").removeClass("active");
+		$(this).parents(".tab").addClass("active");
+	})
 })
 
 

@@ -597,9 +597,15 @@ img {
   gap: 47%;
   position: relative;
 }
+.sec-04 h3 {
+  color: #c3c3c5;
+}
 .sec-04 .sec-04-contents {
   display: flex;
   gap: 50px;
+}
+.sec-04 .sec-04-contents .txt-box {
+  cursor: pointer;
 }
 .sec-04 .img-box {
   display: none;
@@ -616,6 +622,13 @@ img {
   top: 35%;
   left: 50%;
   transform: translateX(-50%);
+}
+.sec-04 .tab.active h3 {
+  color: #333333;
+}
+.sec-04 .tab.active .txt-box {
+  border-bottom: 5px solid #ef383b;
+  padding-bottom: 5px;
 }
 
 .sec-05-wrap {
