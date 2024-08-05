@@ -296,6 +296,7 @@ h3 {
   font-size: 25px;
   font-weight: 600;
   line-height: normal;
+  text-align: center;
 }
 
 .sec-tit {
@@ -587,22 +588,34 @@ img {
 }
 
 .sec-04 {
+  max-width: 1200px;
+  margin: 0 auto;
   height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 47%;
+  position: relative;
 }
 .sec-04 .sec-04-contents {
   display: flex;
-  position: relative;
+  gap: 50px;
 }
-.sec-04 .tab {
-  width: inherit;
+.sec-04 .img-box {
+  display: none;
+  width: 80%;
+}
+.sec-04 .img-box img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sec-04 .tab.active .img-box {
+  display: block;
   position: absolute;
-  top: 0;
+  top: 35%;
   left: 50%;
   transform: translateX(-50%);
-}
-.sec-04 .tab h3 {
-  display: inline-block;
-  width: 100%;
 }
 
 .sec-05-wrap {
