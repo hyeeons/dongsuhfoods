@@ -628,13 +628,14 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
   position: absolute;
-  top: 10%;
+  top: 9%;
   left: 50%;
   transform: translateX(-50%);
 }
 .sec-04 .img-box .bnr-02-text img {
-  width: 65%;
+  width: 80%;
 }
 .sec-04 .img-box .bnr-02-text p {
   width: 105%;
