@@ -293,12 +293,31 @@
 			object-fit: cover;
 			position: relative;
 		}
-		.bnr-letter {
+		.bnr-01-text {
 			width: 40%;
 			position: absolute;
 			top: 22%;
 			left: 5%;
 		}
+		.bnr-02-text {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			position: absolute;
+			top: 10%;
+			left: 50%;
+			transform: translateX(-50%);
+			img {
+				width: 65%;
+			}
+			p {
+				width: 105%;
+				text-align: center;
+				color: $white;
+			}
+		}
+		
+		
 	}
 	.tab {
 		&.active .img-box {
@@ -317,9 +336,6 @@
 			padding-bottom: 5px;		
 		}
 		
-		&.active .bnr-letter {
-			display: block;
-		}
 	}
 	
 }
