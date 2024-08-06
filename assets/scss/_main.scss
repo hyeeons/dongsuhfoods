@@ -287,9 +287,17 @@
 	.img-box {
 		display: none;
 		width: 80%;
-		img {
+		position: relative;
+		.bnr-img {
 			width: 100%;
 			object-fit: cover;
+			position: relative;
+		}
+		.bnr-letter {
+			width: 40%;
+			position: absolute;
+			top: 22%;
+			left: 5%;
 		}
 	}
 	.tab {
@@ -309,6 +317,9 @@
 			padding-bottom: 5px;		
 		}
 		
+		&.active .bnr-letter {
+			display: block;
+		}
 	}
 	
 }

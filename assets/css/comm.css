@@ -610,11 +610,19 @@ img {
 .sec-04 .img-box {
   display: none;
   width: 80%;
+  position: relative;
 }
-.sec-04 .img-box img {
+.sec-04 .img-box .bnr-img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  position: relative;
+}
+.sec-04 .img-box .bnr-letter {
+  width: 40%;
+  position: absolute;
+  top: 22%;
+  left: 5%;
 }
 .sec-04 .tab.active .img-box {
   display: block;
@@ -629,6 +637,9 @@ img {
 .sec-04 .tab.active .txt-box {
   border-bottom: 5px solid #ef383b;
   padding-bottom: 5px;
+}
+.sec-04 .tab.active .bnr-letter {
+  display: block;
 }
 
 .sec-05-wrap {
