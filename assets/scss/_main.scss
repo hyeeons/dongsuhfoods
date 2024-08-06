@@ -8,96 +8,95 @@
 // }
 
 .position-wrap {
-	position: relative;
+  position: relative;
 }
 
 // 헤더
 
 #header {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 1000;
-	width: 100%;
-	height: 100px;
-	
-	.hd-wrap {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 100;
-	width: 100%;
-	border-bottom: none;
-	transition: all 0.1s ease;
-	}
-	.hd-inner {
-		display: flex;
-		max-width: $maxwidth;
-		margin: 0 auto;
-		height: 100px;
-		align-items: center;
-		gap: 50px;
-	}
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100px;
 
-	.nav-bg {
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: 1;
-		background: $white;
-		width: 100%;
-		height: 440px;
-		display: none;
-	}
+  .hd-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    border-bottom: none;
+    transition: all 0.1s ease;
+  }
+  .hd-inner {
+    display: flex;
+    max-width: $maxwidth;
+    margin: 0 auto;
+    height: 100px;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .nav-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: $white;
+    width: 100%;
+    height: 440px;
+    display: none;
+  }
 }
 
-
 .nav-list {
-	display: flex;
-	
-	.nav-list-depth1{
-		width: 190px;
-		a {
-			display: block;
-			@include semibold-21;
-			color: $white;
-			text-align: center;
-			padding: 38px 0;
-			transition: all 0.1s ease;
-		}
-	}
-	.nav-list-depth2 {
-		position: absolute;
-		top: 100%;
-		z-index: 100;
-		display: none;
-		padding-top: 20px;
-		li {
-			width: 190px;
-		}
-		a {
-			display: block;
-			@include medium-17;
-			font-weight: 500;
-			color: $txtDefault;
-			padding: 13px 0;
-			transition: all 0.1s ease;
-			&:hover {
-				color: $primary;
-			}
-		}
-	}
+  display: flex;
+
+  .nav-list-depth1 {
+    width: 190px;
+    a {
+      display: block;
+      @include semibold-21;
+      color: $white;
+      text-align: center;
+      padding: 38px 0;
+      transition: all 0.1s ease;
+    }
+  }
+  .nav-list-depth2 {
+    position: absolute;
+    top: 100%;
+    z-index: 100;
+    display: none;
+    padding-top: 20px;
+    li {
+      width: 190px;
+    }
+    a {
+      display: block;
+      @include medium-17;
+      font-weight: 500;
+      color: $txtDefault;
+      padding: 13px 0;
+      transition: all 0.1s ease;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
 }
 
 // 메인비디오
 
 .main-video {
-	width: 1920px;
+  width: 100%;
 }
 
 // 메인
 .wrap {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 // .wrap {
@@ -107,400 +106,391 @@
 
 // sec-01 뉴스소식
 .sec-01 {
-	max-width: $maxwidth;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	padding: 48px 0 150px;
-	a {
-		@include medium-17
-	}
-	
-	.contents {
-		height: 130px;
-	}
-	.sec-01-tit {
-		@include semibold-19;
-		padding-bottom: 14px;
-	}
+  max-width: $maxwidth;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 0 150px;
+  a {
+    @include medium-17;
+  }
 
-	.more-tit {
-		a {
-			@include semibold-15;
-		}
-	}
+  .contents {
+    height: 130px;
+  }
+  .sec-01-tit {
+    @include semibold-19;
+    padding-bottom: 14px;
+  }
 
-	.news {
-		width: 40%;
-		a {
-			display: block;
-			padding: 4.5px 0;
-		}
-	}
-	.social {
-		width: 40%;
-		ul {
-			display: flex;
-			flex-wrap: wrap;
-		}
-		li {
-			width: 44%;
-		}
-		a {
-			display: block;
-			padding: 4.5px 0;
-		}
-	}
-	.stock {
-		width: 20%;
-		.price {
-			display: flex;
-			align-items: center;
-			gap: 20px;
-			p {
-				@include bold-33;
-			}
-		}
-		.date {
-			display: block;
-			@include semibold-15;
-			padding-top: 10px;
-		}
-	}
+  .more-tit {
+    a {
+      @include semibold-15;
+    }
+  }
+
+  .news {
+    width: 40%;
+    a {
+      display: block;
+      padding: 4.5px 0;
+    }
+  }
+  .social {
+    width: 40%;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    li {
+      width: 44%;
+    }
+    a {
+      display: block;
+      padding: 4.5px 0;
+    }
+  }
+  .stock {
+    width: 20%;
+    .price {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      p {
+        @include bold-33;
+      }
+    }
+    .date {
+      display: block;
+      @include semibold-15;
+      padding-top: 10px;
+    }
+  }
 }
 
 // sec-02 소개배너
 .sec-02 {
-	// height: 753px;
-	max-width: $maxwidth;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-bottom: 260px;
-	position: relative;
-	.sec-tit {
-		padding: 0;
-		text-align: left;
-	}
-	.sec-02-img {
-		width: 55%;
-	}
-	img {
-		width: 100%;
-	}
+  // height: 753px;
+  max-width: $maxwidth;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 260px;
+  position: relative;
+  .sec-tit {
+    padding: 0;
+    text-align: left;
+  }
+  .sec-02-img {
+    width: 55%;
+  }
+  img {
+    width: 100%;
+  }
 }
 
 // sec-03 브랜드 제품소개
 
 .sec-03 {
-	background: $gray_F8;
-	height: 1410px;
-.sec-tit {
-	padding-bottom: 185px;
+  background: $gray_F8;
+  height: 1410px;
+  .sec-tit {
+    padding-bottom: 185px;
+  }
+  .more-tit {
+    // display: none;
+    padding-bottom: 30px;
+    a {
+      @include semibold-25;
+    }
+    &::after {
+      font-size: 31px;
+      top: 27%;
+    }
+  }
+  .move-container {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+  }
+  .img-box {
+    width: 185px;
+    height: 185px;
+    background: $white;
+    border-radius: 20px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
 }
-	.more-tit {
-		// display: none;
-		padding-bottom: 30px;
-		a {
-			@include semibold-25;
-		}
-		&::after {
-			font-size: 31px;
-			top: 27%;
-		}
-	}
-	.move-container {
-		display: flex;
-		gap: 25px;
-		width: 100%;
-	}
-	.img-box {
-		width: 185px;
-		height: 185px;
-		background: $white;
-		border-radius: 20px;
-		img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-
-		}
-	}
-}
-.sec-03-contents{
-	max-width: $maxwidth;
-	height: 100%;
-	margin: -22% auto;
-	position: relative;
-	overflow-x: hidden;
+.sec-03-contents {
+  max-width: $maxwidth;
+  height: 100%;
+  margin: -17% auto;
+  position: relative;
+  overflow-x: hidden;
 }
 .sec-03-container {
-	position: absolute;
-	top: 20%;
-	left: 0;
-	display: flex;
-	flex-direction: column;
-	gap: 50px;
-	// width: 300%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  // width: 300%;
 }
 
 // 애니메이션
 .sec-03 {
-	.move-container {
-		animation: moveleft 20s linear infinite;
-	}
-	.move-right {
-		animation: moveleft 30s linear reverse infinite;
-	}
-	@keyframes moveleft {
-		0% {
-			transform: translateX(0%);
-		}
-		100% {
-			transform: translateX(-50%);
-		}
-	}
+  .move-container {
+    animation: moveleft 20s linear infinite;
+  }
+  .move-right {
+    animation: moveleft 30s linear reverse infinite;
+  }
+  @keyframes moveleft {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
 }
 
 // sec-04 공통
 .sec-04 {
-	max-width: $maxwidth;
-	margin: 0 auto;
-	height: 1000px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 47%;
-	position: relative;
-	h3 {
-		color: $gray_C3;
-	}
-	.sec-04-contents {
-		display: flex;
-		gap: 50px;
-		.txt-box {
-			cursor: pointer;
-		}
-	}
+  max-width: $maxwidth;
+  margin: 0 auto;
+  height: 1070px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45%;
+  position: relative;
+  h3 {
+    color: $gray_C3;
+  }
+  .sec-04-contents {
+    display: flex;
+    gap: 50px;
+    .txt-box {
+      cursor: pointer;
+    }
+  }
 
-	.img-box {
-		display: none;
-		width: 80%;
-		position: relative;
-		.bnr-img {
-			width: 100%;
-			object-fit: cover;
-			position: relative;
-		}
-	}
-	
+  .img-box {
+    display: none;
+    width: 80%;
+    position: relative;
+    .bnr-img {
+      width: 100%;
+      object-fit: cover;
+      position: relative;
+    }
+  }
 }
-// 항목별 
+// 항목별
 .sec-04 {
-	.bnr-01-text {
-		width: 40%;
-		position: absolute;
-		top: 22%;
-		left: 5%;
-	}
-	.bnr-02-text {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 20px;
-		position: absolute;
-		top: 9%;
-		left: 50%;
-		transform: translateX(-50%);
-		img {
-			width: 80%;
-		}
-		p {
-			width: 105%;
-			text-align: center;
-			color: $white;
-		}
-	}
-	.tab-3 {
-		.tab-box {
-			display: flex;
-			gap: 10px;
-			.bnr-img {
-				border-radius: 0;
-			}
-		.bnr-03-text {
-			width: 35%;
-		}
-		.top-box {
-			height: 46%;
-			position: relative;
-			border: 1px solid $gray_C3;
-			margin-bottom: 10px;
-			.title {
-			position: absolute;
-			top: 5%;
-			left: 5%;
-			span {
-				display: block;
-			@include light-17;
-			padding: 7px 0;
-		}
-			p {
-				@include light-45;
-				font-weight: 100;
-				line-height: 1.1;
-			}
-		}
-		.date {
-			position: absolute;
-			bottom: 5%;
-			right: 5%;
-			@include light-19;
-			letter-spacing: 0.5;
-		}
-		}
-			
-		.btm-box {
-			background: $orange;
-			padding: 15px;
-			height: 50%;
-			a {
-				display: block;
-				&:nth-child(2) {
-					border-bottom: 1px solid $borderOrange;
-				}
-			}
-			span {
-				display: block;
-				@include semibold-19;
-				padding: 8px 0;
-			}
-			p {
-				width: 80%;
-				@include medium-13;
-				padding-bottom: 10px;
-			}
-		}
-	}
-	} 
-	
+  .bnr-01-text {
+    width: 40%;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+  }
+  .bnr-02-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translateX(-50%);
+    img {
+      width: 80%;
+    }
+    p {
+      width: 105%;
+      text-align: center;
+      color: $white;
+    }
+  }
+  .tab-3 {
+    .tab-box {
+      display: flex;
+      gap: 10px;
+      .bnr-img {
+        border-radius: 0;
+      }
+      .bnr-03-text {
+        width: 35%;
+      }
+      .top-box {
+        height: 46%;
+        position: relative;
+        border: 1px solid $gray_C3;
+        margin-bottom: 10px;
+        .title {
+          position: absolute;
+          top: 5%;
+          left: 5%;
+          span {
+            display: block;
+            @include light-17;
+            padding: 7px 0;
+          }
+          p {
+            @include light-45;
+            font-weight: 100;
+            line-height: 1.1;
+          }
+        }
+        .date {
+          position: absolute;
+          bottom: 5%;
+          right: 5%;
+          @include light-19;
+          letter-spacing: 0.5;
+        }
+      }
+
+      .btm-box {
+        background: $orange;
+        padding: 15px;
+        height: 50%;
+        a {
+          display: block;
+          &:nth-child(2) {
+            border-bottom: 1px solid $borderOrange;
+          }
+        }
+        span {
+          display: block;
+          @include semibold-19;
+          padding: 8px 0;
+        }
+        p {
+          width: 80%;
+          @include medium-13;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
 }
 
 // tab 활성화
 .sec-04 {
-	.tab {
-		&.active .img-box {
-			display: block;
-			position: absolute;
-			top: 35%;
-			left: 50%;
-			transform: translateX(-50%);
-		}
-		&.active h3 {
-			color: $txtDefault;
-				
-		}
-		&.active .txt-box {
-			border-bottom: 5px solid $primary;
-			padding-bottom: 5px;		
-		}
-	}
+  .tab {
+    &.active .img-box {
+      display: block;
+      position: absolute;
+      top: 33%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &.active h3 {
+      color: $txtDefault;
+    }
+    &.active .txt-box {
+      border-bottom: 5px solid $primary;
+      padding-bottom: 5px;
+    }
+  }
 }
-
-
 
 // sec-05 TV CF
 .sec-05-wrap {
-	display: none;
-	background: $gray_F8;
+  background: $gray_F8;
 }
 .sec-05 {
-	max-width: $maxwidth;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-bottom: 300px;
-	background: $gray_F8;
-	
+  max-width: $maxwidth;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 300px;
+  background: $gray_F8;
 
-	.cf-img-box {
-		display: flex;
-		gap: 42px;
-		.cf-img {
-			width: 700px;
-			height: 385px;
-			img {
-				width: 100%;
-				height: 100%;
-				object-fit: cover;
-			}
-		}
-		.img-text {
-		padding-top: 32px;
-		span {
-			@include medium-17;
-		}
-		p {
-			@include semibold-23;
-			padding-top: 8px;
-		}
-		}
-	}
+  .cf-img-box {
+    display: flex;
+    gap: 42px;
+    .cf-img {
+      width: 700px;
+      height: 385px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .img-text {
+      padding-top: 32px;
+      span {
+        @include medium-17;
+      }
+      p {
+        @include semibold-23;
+        padding-top: 8px;
+      }
+    }
+  }
 }
 
 // 풋터
 
-
 .ft-wrap {
-	display: flex;
-	flex-direction: column;
-	max-width: $maxwidth;
-	margin: 0 auto;
-	padding: 40px 0;
-	padding-bottom: 40px;
-	position: relative;
-	hr {
-		display: block;
-		position: absolute;
-		top: 38%;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 160%;
-	}
+  display: flex;
+  flex-direction: column;
+  max-width: $maxwidth;
+  margin: 0 auto;
+  padding: 40px 0;
+  padding-bottom: 40px;
+  position: relative;
+  hr {
+    display: block;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160%;
+  }
 }
 .ft-top-box {
-	padding-bottom: 27px;
-	ul {
-		display: flex;
-		gap: 30px;
-		a {
-			@include medium-13;
-		}
-	}
+  padding-bottom: 27px;
+  ul {
+    display: flex;
+    gap: 30px;
+    a {
+      @include medium-13;
+    }
+  }
 }
 
 .ft-box {
-	display: flex;
-	justify-content: space-between;
-	span {
-		@include medium-15;
-	}
-	.ft-goto {
-		display: flex;
-		gap: 10px;
-		align-items: center;
-		.goto-site {
-			width: 185px;
-			height: 45px;
-			border: 1px solid $gray_E3;
-			border-radius: 10px;
-		}
-		span {
-			display: inline-block;
-			padding: 11px 0;
-			padding-left: 20px;
-		}
-	}
+  display: flex;
+  justify-content: space-between;
+  span {
+    @include medium-15;
+  }
+  .ft-goto {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    .goto-site {
+      width: 185px;
+      height: 45px;
+      border: 1px solid $gray_E3;
+      border-radius: 10px;
+    }
+    span {
+      display: inline-block;
+      padding: 11px 0;
+      padding-left: 20px;
+    }
+  }
 }
