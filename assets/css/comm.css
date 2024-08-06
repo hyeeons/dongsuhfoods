@@ -312,6 +312,7 @@ h3 {
   text-align: center;
   padding-top: 10px;
   font-size: 21px;
+  font-weight: 300;
   line-height: normal;
 }
 
@@ -413,6 +414,7 @@ img {
 .nav-list .nav-list-depth2 a {
   display: block;
   font-size: 17px;
+  font-weight: 500;
   line-height: normal;
   font-weight: 500;
   color: #333333;
@@ -440,6 +442,7 @@ img {
 }
 .sec-01 a {
   font-size: 17px;
+  font-weight: 500;
   line-height: normal;
 }
 .sec-01 .contents {
@@ -618,13 +621,14 @@ img {
      object-fit: cover;
   position: relative;
 }
-.sec-04 .img-box .bnr-01-text {
+
+.sec-04 .bnr-01-text {
   width: 40%;
   position: absolute;
   top: 22%;
   left: 5%;
 }
-.sec-04 .img-box .bnr-02-text {
+.sec-04 .bnr-02-text {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -634,14 +638,84 @@ img {
   left: 50%;
   transform: translateX(-50%);
 }
-.sec-04 .img-box .bnr-02-text img {
+.sec-04 .bnr-02-text img {
   width: 80%;
 }
-.sec-04 .img-box .bnr-02-text p {
+.sec-04 .bnr-02-text p {
   width: 105%;
   text-align: center;
   color: #ffffff;
 }
+.sec-04 .tab-3 .tab-box {
+  display: flex;
+  gap: 10px;
+}
+.sec-04 .tab-3 .tab-box .bnr-img {
+  border-radius: 0;
+}
+.sec-04 .tab-3 .tab-box .bnr-03-text {
+  width: 35%;
+}
+.sec-04 .tab-3 .tab-box .top-box {
+  height: 46%;
+  position: relative;
+  border: 1px solid #c3c3c5;
+  margin-bottom: 10px;
+}
+.sec-04 .tab-3 .tab-box .top-box .title {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.sec-04 .tab-3 .tab-box .top-box .title span {
+  display: block;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: normal;
+  padding: 7px 0;
+}
+.sec-04 .tab-3 .tab-box .top-box .title p {
+  font-size: 45px;
+  font-weight: 300;
+  line-height: normal;
+  font-weight: 100;
+  line-height: 1.1;
+}
+.sec-04 .tab-3 .tab-box .top-box .date {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.5;
+}
+.sec-04 .tab-3 .tab-box .btm-box {
+  background: #FEBE19;
+  padding: 15px;
+  height: 50%;
+}
+.sec-04 .tab-3 .tab-box .btm-box a {
+  display: block;
+}
+.sec-04 .tab-3 .tab-box .btm-box a:nth-child(2) {
+  border-bottom: 1px solid #E2AB03;
+}
+.sec-04 .tab-3 .tab-box .btm-box span {
+  display: block;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 8px 0;
+}
+.sec-04 .tab-3 .tab-box .btm-box p {
+  width: 80%;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+
 .sec-04 .tab.active .img-box {
   display: block;
   position: absolute;
@@ -690,6 +764,7 @@ img {
 }
 .sec-05 .cf-img-box .img-text span {
   font-size: 17px;
+  font-weight: 500;
   line-height: normal;
 }
 .sec-05 .cf-img-box .img-text p {
@@ -726,6 +801,7 @@ img {
 }
 .ft-top-box ul a {
   font-size: 13px;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -735,6 +811,7 @@ img {
 }
 .ft-box span {
   font-size: 15px;
+  font-weight: 500;
   line-height: normal;
 }
 .ft-box .ft-goto {
