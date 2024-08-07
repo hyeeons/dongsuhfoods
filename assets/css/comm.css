@@ -739,6 +739,9 @@ img {
 .sec-05 {
   padding-bottom: 150px;
 }
+.sec-05 iframe {
+  border-radius: 10px;
+}
 .sec-05 .img-box {
   width: 100%;
 }

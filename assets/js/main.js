@@ -16,10 +16,15 @@ var swiper = new Swiper(".swiper", {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
-	autoplay: {
-		delay: 5000,
-		disableOnInteraction: true,
-	},
+	// autoplay: {
+	// 	delay: 5000,
+	// 	disableOnInteraction: true,
+	// },
 	loop: true
 });
+
+// 동영상 재생 시 슬라이드 멈춤
+var iframes = document.querySelectorAll('iframe');
+
+
 

@@ -290,6 +290,7 @@
       width: 100%;
       object-fit: cover;
       position: relative;
+
     }
   }
 }
@@ -411,7 +412,9 @@
 }
 .sec-05 {
 	padding-bottom: 150px;
-
+	iframe {
+		border-radius: 10px
+	}
 	
 .img-box {
 	width: 100%;
