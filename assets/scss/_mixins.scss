@@ -136,7 +136,39 @@
     line-height: normal;
 }
 
-// thin
+// Regular
+@mixin regular-45 {
+    font-size: 45px;
+	font-weight: 300;
+    line-height: normal;
+}
+@mixin regular-21 {
+    font-size: 21px;
+	font-weight: 300;
+    line-height: normal;
+}
+@mixin regular-19 {
+    font-size: 19px;
+	font-weight: 300;
+    line-height: normal;
+}
+@mixin regular-17 {
+    font-size: 17px;
+	font-weight: 300;
+    line-height: normal;
+}
+@mixin regular-15 {
+    font-size: 15px;
+	font-weight: 300;
+    line-height: normal;
+}
+@mixin regular-13 {
+    font-size: 13px;
+	font-weight: 300;
+    line-height: normal;
+}
+
+// light
 @mixin light-45 {
     font-size: 45px;
 	font-weight: 300;
@@ -159,6 +191,11 @@
 }
 @mixin light-15 {
     font-size: 15px;
+	font-weight: 300;
+    line-height: normal;
+}
+@mixin light-13 {
+    font-size: 13px;
 	font-weight: 300;
     line-height: normal;
 }
