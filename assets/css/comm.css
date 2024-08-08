@@ -559,9 +559,10 @@ img {
 }
 
 .sec-03-contents {
-  max-width: 1200px;
+  max-width: 1670px;
   height: 100%;
   margin: -17% auto;
+  margin-left: 14%;
   position: relative;
   overflow-x: hidden;
 }
