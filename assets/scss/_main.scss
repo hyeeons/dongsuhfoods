@@ -113,6 +113,7 @@
   padding: 35px 0 100px;
   a {
     @include regular-17;
+	letter-spacing: -1px;
   }
 
   .contents {
@@ -203,10 +204,10 @@
     padding-bottom: 30px;
     a {
       @include semibold-25;
-    }
-    &::after {
-      font-size: 31px;
-      top: 27%;
+	  &::after {
+		font-size: 31px;
+		top: 27%;
+	  }
     }
   }
   .move-container {

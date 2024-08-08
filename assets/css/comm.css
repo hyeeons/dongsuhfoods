@@ -331,7 +331,7 @@ h3 {
   font-weight: 600;
   line-height: normal;
 }
-.more-tit::after {
+.more-tit a::after {
   font-family: "Line Awesome Free";
   content: "\f061";
   font-weight: 900;
@@ -444,6 +444,7 @@ img {
   font-size: 17px;
   font-weight: 300;
   line-height: normal;
+  letter-spacing: -1px;
 }
 .sec-01 .contents {
   height: 130px;
@@ -536,7 +537,7 @@ img {
   font-weight: 600;
   line-height: normal;
 }
-.sec-03 .more-tit::after {
+.sec-03 .more-tit a::after {
   font-size: 31px;
   top: 27%;
 }
