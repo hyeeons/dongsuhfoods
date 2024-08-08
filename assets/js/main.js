@@ -12,19 +12,16 @@ $(function () {
 var swiper = new Swiper(".swiper", {
 	slidesPerView: 3,
 	spaceBetween: 30,
+	slidesPerGroup: 1,
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
-	// autoplay: {
-	// 	delay: 5000,
-	// 	disableOnInteraction: true,
-	// },
-	loop: true
+	loop: true,
+
 });
 
-// 동영상 재생 시 슬라이드 멈춤
-var iframes = document.querySelectorAll('iframe');
+
 
 
 
