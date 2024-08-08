@@ -382,6 +382,26 @@
       }
     }
   }
+  .tab-5 {
+	p {
+		width: 100%;
+		text-align: center;
+		color: $white;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		@include medium-35;
+		line-height: 1.3;
+	  }
+	  span {
+		display: block;
+		color: $white;
+		@include light-15;
+		padding-top: 10px;
+	  }
+	
+  }
 }
 
 // tab 활성화

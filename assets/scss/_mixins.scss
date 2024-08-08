@@ -102,6 +102,11 @@
 }
 
 // medium
+@mixin medium-35 {
+    font-size: 35px;
+	font-weight: 500;
+    line-height: normal;
+}
 @mixin medium-21 {
     font-size: 21px;
 	font-weight: 500;
