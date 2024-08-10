@@ -109,7 +109,7 @@
 // wrap - 모바일
 @media screen and (max-width: $breakpoint-mb) {
 	.wrap {
-	padding: 0 22px;}
+	padding: 0 $mb-padding;}
 }
 
 
@@ -192,10 +192,11 @@
 			position: relative;
 		}
 		.sec-01-tit {
+			padding: 0;
 			a {
 				display: block;
 				width: 100%;
-				padding: 24px 0;
+				padding: 22px 0;
 			}
 		}
 		.contents {
@@ -249,6 +250,10 @@
 @media screen and (max-width: $breakpoint-mb) {
 	.sec-02 {
 		flex-direction: column;
+		padding-bottom: 142px;
+		.sec-02-img {
+			width: 100%;
+		  }
 	}
 }
 
@@ -260,12 +265,15 @@
   height: 1410px;
   .sec-tit {
     padding-bottom: 5%;
+	br {
+		display: none;
+	}
   }
   .more-tit {
     // display: none;
     padding-bottom: 30px;
     a {
-      @include semibold-25;
+      @include medium-25;
 	  &::after {
 		font-size: 31px;
 		top: 27%;
@@ -325,6 +333,42 @@
     }
   }
 }
+
+// sec-03 모바일
+@media screen and (max-width: $breakpoint-mb) {
+	.sec-03 {
+		padding: 0 $mb-padding;
+		height: 1100px;
+		.img-box {
+			width: 127px;
+			height: 127px;
+		}
+		.more-tit {
+			padding-bottom: 15px;		
+		a {
+			@include medium-23;
+			&::after {
+				transform: translateY(-41%);
+			}
+		}
+	}
+	.sec-tit {
+		br {
+			display: block;
+		}
+	}
+	}
+	.sec-03-contents {
+		margin-left: 0;
+	}
+	.sec-03-container {
+		top: 9%;
+	}
+}
+
+
+
+
 
 // sec-04 공통
 .sec-04 {

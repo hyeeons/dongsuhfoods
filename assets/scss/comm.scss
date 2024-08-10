@@ -31,6 +31,7 @@ h3 {
 	line-height: 1.3;
 	padding-top: 185px;
 	// padding-bottom: 50px;
+	
 }
 .sec-sub-tit {
 	text-align: center;
@@ -70,11 +71,17 @@ img {
 
 // 공통사항 - 모바일 
 @media screen and (max-width: $breakpoint-mb) {
+	.sec-tit-box {
+		padding-bottom: 30px;
+	}
 	.sec-tit {
+		padding-top: 95px;
+		text-align: left;
 		@include bold-33;
 	}
 	.sec-sub-tit {
-		@include regular-19;
+		@include regular-17;
+		text-align: left;
 	}
 }
 

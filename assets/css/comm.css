@@ -295,7 +295,6 @@ legend {
 h3 {
   font-size: 25px;
   font-weight: 600;
-  line-height: normal;
   text-align: center;
 }
 
@@ -304,7 +303,6 @@ h3 {
   width: 100%;
   font-size: 49px;
   font-weight: 700;
-  line-height: normal;
   line-height: 1.3;
   padding-top: 185px;
 }
@@ -330,7 +328,6 @@ h3 {
   display: block;
   font-size: 15px;
   font-weight: 600;
-  line-height: normal;
 }
 .more-tit a::after {
   font-family: "Line Awesome Free";
@@ -347,15 +344,20 @@ img {
 }
 
 @media screen and (max-width: 430px) {
+  .sec-tit-box {
+    padding-bottom: 30px;
+  }
   .sec-tit {
+    padding-top: 95px;
+    text-align: left;
     font-size: 33px;
     font-weight: 700;
-    line-height: normal;
   }
   .sec-sub-tit {
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 400;
     line-height: normal;
+    text-align: left;
   }
 }
 .position-wrap {
@@ -474,12 +476,10 @@ img {
 .sec-01 .sec-01-tit a {
   font-size: 19px;
   font-weight: 600;
-  line-height: normal;
 }
 .sec-01 .more-tit a {
   font-size: 15px;
   font-weight: 600;
-  line-height: normal;
 }
 .sec-01 .news {
   width: 40%;
@@ -513,13 +513,11 @@ img {
 .sec-01 .stock .price p {
   font-size: 33px;
   font-weight: 700;
-  line-height: normal;
 }
 .sec-01 .stock .date {
   display: block;
   font-size: 15px;
   font-weight: 600;
-  line-height: normal;
   padding-top: 10px;
 }
 
@@ -534,10 +532,13 @@ img {
     width: 100%;
     position: relative;
   }
+  .sec-01 .sec-01-tit {
+    padding: 0;
+  }
   .sec-01 .sec-01-tit a {
     display: block;
     width: 100%;
-    padding: 24px 0;
+    padding: 22px 0;
   }
   .sec-01 .contents {
     display: none;
@@ -582,6 +583,10 @@ img {
 @media screen and (max-width: 430px) {
   .sec-02 {
     flex-direction: column;
+    padding-bottom: 142px;
+  }
+  .sec-02 .sec-02-img {
+    width: 100%;
   }
 }
 .sec-03 {
@@ -591,12 +596,15 @@ img {
 .sec-03 .sec-tit {
   padding-bottom: 5%;
 }
+.sec-03 .sec-tit br {
+  display: none;
+}
 .sec-03 .more-tit {
   padding-bottom: 30px;
 }
 .sec-03 .more-tit a {
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
 }
 .sec-03 .more-tit a::after {
@@ -654,6 +662,36 @@ img {
   }
 }
 
+@media screen and (max-width: 430px) {
+  .sec-03 {
+    padding: 0 22px;
+    height: 1100px;
+  }
+  .sec-03 .img-box {
+    width: 127px;
+    height: 127px;
+  }
+  .sec-03 .more-tit {
+    padding-bottom: 15px;
+  }
+  .sec-03 .more-tit a {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .sec-03 .more-tit a::after {
+    transform: translateY(-41%);
+  }
+  .sec-03 .sec-tit br {
+    display: block;
+  }
+  .sec-03-contents {
+    margin-left: 0;
+  }
+  .sec-03-container {
+    top: 9%;
+  }
+}
 .sec-04 {
   max-width: 1200px;
   margin: 0 auto;
@@ -769,7 +807,6 @@ img {
   display: block;
   font-size: 19px;
   font-weight: 600;
-  line-height: normal;
   padding: 8px 0;
 }
 .sec-04 .tab-3 .tab-box .btm-box p {
