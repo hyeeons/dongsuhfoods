@@ -6,6 +6,12 @@ $(function () {
 		$(this).parents(".tab").addClass("active");
 	});
 
+	// footer
+	$(".goto-site").click(function () {
+		$(this).find(".goto-list").slideToggle();
+		$(".goto-site").toggleClass("active");
+	})
+
 
 });
 
@@ -20,6 +26,7 @@ var swiper = new Swiper(".swiper", {
 	loop: true,
 
 });
+
 
 
 

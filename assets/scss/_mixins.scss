@@ -1,3 +1,32 @@
+// icon
+@mixin icon-up {
+	&::after {
+		content: "\f139";
+		font-family: 'Line Awesome Free';
+		font-size: 21px;
+		font-weight: 900;
+		position: absolute;
+		top: 50%;
+		right: 10%;
+		transform: translateY(-50%);
+		color: $txtDefault;
+	}
+}
+@mixin icon-down {
+	&::after {
+		// content: "\f107";
+		content: "\f13a";
+		font-family: 'Line Awesome Free';
+		font-size: 21px;
+		font-weight: 900;
+		position: absolute;
+		top: 50%;
+		right: 10%;
+		transform: translateY(-50%);
+		color: $txtDefault;
+	}
+}
+
 // 폰트
 
 //bold

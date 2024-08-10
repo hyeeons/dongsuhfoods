@@ -858,9 +858,50 @@ img {
   height: 45px;
   border: 1px solid #e3e3e3;
   border-radius: 10px;
+  position: relative;
+}
+.ft-box .ft-goto .goto-site.active span::after {
+  content: "\f139";
+  font-family: "Line Awesome Free";
+  font-size: 21px;
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  color: #333333;
 }
 .ft-box .ft-goto span {
   display: inline-block;
   padding: 11px 0;
+  padding-left: 20px;
+}
+.ft-box .ft-goto span::after {
+  content: "\f13a";
+  font-family: "Line Awesome Free";
+  font-size: 21px;
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  color: #333333;
+}
+
+.ft-goto .goto-site {
+  position: relative;
+}
+.ft-goto .goto-list {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background: #F8F8F8;
+  width: 100%;
+}
+.ft-goto .goto-list a {
+  display: block;
+  width: 100%;
+  padding: 5px 0;
   padding-left: 20px;
 }/*# sourceMappingURL=comm.css.map */
