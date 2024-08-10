@@ -11,6 +11,8 @@
   position: relative;
 }
 
+
+
 // 헤더
 
 #header {
@@ -104,13 +106,20 @@
 // 	margin: 0 auto;
 // }
 
+// wrap - 모바일
+@media screen and (max-width: $breakpoint-md) {
+	.wrap {
+	padding: 0 22px;}
+}
+
+
 // sec-01 뉴스소식
 .sec-01 {
   max-width: $maxwidth;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 35px 0 100px;
+  padding: 3vw 0 12vw;
   a {
     @include regular-17;
 	letter-spacing: -1px;
@@ -120,9 +129,11 @@
     height: 130px;
   }
   .sec-01-tit {
+	width: 100%;
+
+	a {
     @include semibold-19;
-    padding-bottom: 14px;
-  }
+padding-bottom: 14px  }}
 
   .more-tit {
     a {
@@ -169,6 +180,49 @@
   }
 }
 
+// sec-01 모바일버전
+@media screen and (max-width: $breakpoint-md) {
+	.sec-01 {
+		flex-direction: column;
+		.contents-box {
+			border-bottom: 1px solid $gray_E3;
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			position: relative;
+		}
+		.sec-01-tit {
+			a {
+				display: block;
+				width: 100%;
+				padding: 24px 0;
+			}
+		}
+		.contents {
+			display: none;
+		}
+		.more-tit {
+			position: absolute;
+			top: 50%;
+			right: 0;
+			transform: translateY(-50%);
+			a {
+				padding: 37% 0;
+				&::after {
+				position: static;
+					font-size: 19px;
+				}
+			}
+			p {
+				display: none;
+			}
+		}
+		
+	}
+	
+}
+
+
 // sec-02 소개배너
 .sec-02 {
   // height: 753px;
@@ -190,6 +244,14 @@
     width: 100%;
   }
 }
+
+// sec-02 모바일
+@media screen and (max-width: $breakpoint-md) {
+	.sec-02 {
+		flex-direction: column;
+	}
+}
+
 
 // sec-03 브랜드 제품소개
 

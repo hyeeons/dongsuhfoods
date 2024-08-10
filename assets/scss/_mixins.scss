@@ -46,6 +46,11 @@
     font-weight: 700;
     line-height: normal;
 }
+@mixin bold-41 {
+    font-size: 41px;
+    font-weight: 700;
+    line-height: normal;
+}
 
 @mixin bold-33 {
     font-size: 33px;
@@ -173,32 +178,37 @@
 // Regular
 @mixin regular-45 {
     font-size: 45px;
-	font-weight: 300;
+	font-weight: 400;
+    line-height: normal;
+}
+@mixin regular-30 {
+    font-size: 30px;
+	font-weight: 400;
     line-height: normal;
 }
 @mixin regular-21 {
     font-size: 21px;
-	font-weight: 300;
+	font-weight: 400;
     line-height: normal;
 }
 @mixin regular-19 {
     font-size: 19px;
-	font-weight: 300;
+	font-weight: 400;
     line-height: normal;
 }
 @mixin regular-17 {
     font-size: 17px;
-	font-weight: 300;
+	font-weight: 400;
     line-height: normal;
 }
 @mixin regular-15 {
     font-size: 15px;
-	font-weight: 300;
+	font-weight: 400;
     line-height: normal;
 }
 @mixin regular-13 {
     font-size: 13px;
-	font-weight: 300;
+	font-weight: 400;
     line-height: normal;
 }
 
@@ -236,3 +246,8 @@
 
 
 
+// vw
+@mixin bold-8vw {
+    font-size: 8vw;
+    font-weight: 700;
+}

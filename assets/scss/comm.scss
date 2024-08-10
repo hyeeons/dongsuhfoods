@@ -26,7 +26,8 @@ h3 {
 
 .sec-tit {
 	text-align: center;
-	@include bold-49;
+	width: 100%;
+	@include bold-8vw;
 	line-height: 1.3;
 	padding-top: 185px;
 	// padding-bottom: 50px;
@@ -38,7 +39,7 @@ h3 {
 }
 
 .sec-tit-box {
-	padding-bottom: 63px;
+	padding-bottom: 5vw;
 }
 
 // 더보기 
@@ -66,5 +67,12 @@ h3 {
 img {
 	border-radius: 10px;
 }
+
+// 공통사항 - 모바일 
+@media screen and (max-width: $breakpoint-md) {
+
+}
+
+
 
 @import "main";
