@@ -16,8 +16,11 @@ $font-size: 16px;
 
 // 반응형 쿼리
 $maxwidth: 1200px;
+$breakpoint-mb: 430px; 
+
 $breakpoint-sm: 576px; //까지 모바일
 $breakpoint-md: 768px; //까지 태블릿
 $breakpoint-lg: 992px; //까지 큰태블릿
 $breakpoint-xl: 1280px; //까지 PC
 $breakpoint-xxl: 1440px; //까지 전체 화면
+

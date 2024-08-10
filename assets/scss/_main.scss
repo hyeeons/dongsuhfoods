@@ -107,7 +107,7 @@
 // }
 
 // wrap - 모바일
-@media screen and (max-width: $breakpoint-md) {
+@media screen and (max-width: $breakpoint-mb) {
 	.wrap {
 	padding: 0 22px;}
 }
@@ -181,7 +181,7 @@ padding-bottom: 14px  }}
 }
 
 // sec-01 모바일버전
-@media screen and (max-width: $breakpoint-md) {
+@media screen and (max-width: $breakpoint-mb) {
 	.sec-01 {
 		flex-direction: column;
 		.contents-box {
@@ -246,7 +246,7 @@ padding-bottom: 14px  }}
 }
 
 // sec-02 모바일
-@media screen and (max-width: $breakpoint-md) {
+@media screen and (max-width: $breakpoint-mb) {
 	.sec-02 {
 		flex-direction: column;
 	}
