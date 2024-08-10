@@ -318,7 +318,7 @@ h3 {
 }
 
 .sec-tit-box {
-  padding-bottom: 5vw;
+  padding-bottom: 60px;
 }
 
 .more-tit {
@@ -456,7 +456,7 @@ img {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 3vw 0 12vw;
+  padding: 50px 0 100px;
 }
 .sec-01 a {
   font-size: 17px;
@@ -469,12 +469,12 @@ img {
 }
 .sec-01 .sec-01-tit {
   width: 100%;
+  padding-bottom: 14px;
 }
 .sec-01 .sec-01-tit a {
   font-size: 19px;
   font-weight: 600;
   line-height: normal;
-  padding-bottom: 14px;
 }
 .sec-01 .more-tit a {
   font-size: 15px;

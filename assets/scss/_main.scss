@@ -119,7 +119,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 3vw 0 12vw;
+  padding: 50px 0 100px;
   a {
     @include regular-17;
 	letter-spacing: -1px;
@@ -130,10 +130,10 @@
   }
   .sec-01-tit {
 	width: 100%;
-
+	padding-bottom: 14px;
 	a {
     @include semibold-19;
-padding-bottom: 14px  }}
+}}
 
   .more-tit {
     a {
