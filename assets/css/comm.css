@@ -928,8 +928,20 @@ img {
   .sec-04 .txt-box {
     padding-top: 10px;
   }
+  .sec-04 .tab-2 .bnr-img-mb {
+    -o-object-position: 34% 0;
+       object-position: 34% 0;
+  }
+  .sec-04 .tab-3 .bnr-img-mb {
+    -o-object-position: 67% 0;
+       object-position: 67% 0;
+  }
   .sec-04 .tab-3 .tab-box {
     display: none;
+  }
+  .tab-4 .bnr-img-mb {
+    -o-object-position: 61% 0;
+       object-position: 61% 0;
   }
 }
 [data-aos=tab-aos-pc] {
