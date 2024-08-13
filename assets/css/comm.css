@@ -939,9 +939,13 @@ img {
   .sec-04 .tab-3 .tab-box {
     display: none;
   }
-  .tab-4 .bnr-img-mb {
-    -o-object-position: 61% 0;
-       object-position: 61% 0;
+  .tab-4 .img-box .bnr-img-mb {
+    -o-object-position: 66% 0;
+       object-position: 66% 0;
+  }
+  .tab-5 .img-box .bnr-img-mb {
+    -o-object-position: 7% 0;
+       object-position: 7% 0;
   }
 }
 [data-aos=tab-aos-pc] {
