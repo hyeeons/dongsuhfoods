@@ -987,22 +987,20 @@ img {
 .sec-05-wrap {
   background: #F8F8F8;
   width: 100%;
+  padding: 0 22px;
 }
 
 .sec-05 {
   padding-bottom: 150px;
 }
-.sec-05 iframe {
-  border-radius: 10px;
-}
 .sec-05 .img-box {
   width: 100%;
+  height: 250px;
 }
-.sec-05 .img-box img {
+.sec-05 .img-box iframe {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  border-radius: 10px;
 }
 .sec-05 .img-text {
   padding-top: 5px;
@@ -1024,14 +1022,14 @@ img {
 }
 .sec-05 .swiper-wrapper {
   position: relative;
-  padding: 30px 0 70px;
+  padding: 30px 0 170px;
 }
 .sec-05 .swiper-slide {
-  transform: scale(0.8);
+  transform: scale(0.7) translateY(20%);
   opacity: 0.5;
 }
 .sec-05 .swiper-slide.swiper-slide-next {
-  transform: scale(1.1);
+  transform: scale(1.2) translateY(20%);
   opacity: 1;
 }
 .sec-05 .swiper-slide.swiper-slide-next .more-tit {
@@ -1042,7 +1040,6 @@ img {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
-  margin: 0 auto;
   padding: 40px 0;
   padding-bottom: 40px;
   position: relative;
@@ -1053,7 +1050,7 @@ img {
   top: 38%;
   left: 50%;
   transform: translateX(-50%);
-  width: 160%;
+  width: 120%;
 }
 
 .ft-top-box {
