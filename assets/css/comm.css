@@ -1036,20 +1036,25 @@ img {
   visibility: visible;
 }
 
+#footer {
+  position: relative;
+}
+
 .ft-wrap {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
   padding: 40px 0;
   padding-bottom: 40px;
-  position: relative;
 }
 .ft-wrap hr {
   display: block;
   position: absolute;
-  top: 38%;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 80px;
+  left: 0;
+  z-index: 10;
   width: 120%;
 }
 
@@ -1125,6 +1130,7 @@ img {
   left: 0;
   background: #F8F8F8;
   width: 100%;
+  z-index: 100;
 }
 .ft-goto .goto-list a {
   display: block;

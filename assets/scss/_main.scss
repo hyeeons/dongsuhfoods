@@ -743,22 +743,28 @@
 
 
 // 풋터
-
+#footer {
+	position: relative;
+}
 .ft-wrap {
   display: flex;
   flex-direction: column;
   max-width: $maxwidth; 
+  overflow: hidden;
+  margin: 0 auto;
   padding: 40px 0;
   padding-bottom: 40px;
-  position: relative;
+
+
   hr {
     display: block;
     position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 120%;
+	top: 80px;
+	left: 0;
+	z-index: 10;
+	width: 120%;
   }
+
 }
 .ft-top-box {
   padding-bottom: 27px;
@@ -781,6 +787,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
+	
     .goto-site {
       width: 185px;
       height: 45px;
@@ -816,6 +823,7 @@
 		left: 0;
 		background: $gray_F8;
 		width: 100%;
+		z-index: 100;
 
 		a {
 			display: block;
