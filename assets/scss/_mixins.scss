@@ -1,4 +1,29 @@
 // icon
+@mixin icon-hd-up {
+	&::before {
+		content: "\f106";
+		font-family: 'Line Awesome Free';
+		font-size: 21px;
+		font-weight: 900;
+		position: absolute;
+		top: 36px;
+		right: 5%;
+		color: $txtDefault;
+	}
+}
+@mixin icon-hd-down {
+	&::before {
+		content: "\f107";
+		font-family: 'Line Awesome Free';
+		font-size: 21px;
+		font-weight: 900;
+		position: absolute;
+		top: 36px;
+		right: 5%;
+		transform: translateY(-50%);
+		color: $txtDefault;
+	}
+}
 @mixin icon-up {
 	&::after {
 		content: "\f139";

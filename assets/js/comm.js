@@ -1,6 +1,7 @@
 $(function () {
   // header
   function header(){
+	// PC버전
 	  if (window.innerWidth >= 430) {
 		  $("#header").mouseenter(function () {
 			$(".nav-bg").stop(true, true).slideDown(200);
@@ -22,12 +23,23 @@ $(function () {
 		  $(".nav-list-depth1 > a").mouseleave(function () {
 			$(this).css("color", "#333333");
 		  });
-	  } else {
-		// 모바일 버전에서는 해제
+	  } 
+	  else {
+		// 모바일 버전
 		$("#header").off("mouseenter mouseleave");
 		$(".nav-list-depth1 > a").off("mouseenter mouseleave");
-	  }
-  }
+		$(".nav-list-depth1 > a").click(function(){
+			const $navDepth2 = $(this).next(".nav-list-depth2"); 
+			if ($navDepth2.hasClass("expanded")){
+				$navDepth2.removeClass("expanded");
+			} else {
+				$(".nav-list-depth2").removeClass("expanded");
+				$navDepth2.addClass("expanded");
+			}	
+		})
+		
+  	}
+}
   header();
   $(window).on("resize", function () {
     header();
