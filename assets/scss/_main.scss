@@ -38,7 +38,8 @@
     margin: 0 auto;
     height: 100px;
     align-items: center;
-    gap: 50px;
+	justify-content: flex-end;
+	position: relative;
   }
 
   .nav-bg {
@@ -90,8 +91,16 @@
   }
 }
 
-// 메인비디오
+// 헤더 header - 모바일
+@media screen and (max-width: $breakpoint-mb) {
 
+}
+
+
+
+
+
+// 메인비디오
 .main-video {
   width: 100%;
 }
@@ -243,6 +252,9 @@
   }
   img {
     width: 100%;
+  }
+  .sec-tit-box {
+	width: 100%;
   }
 }
 

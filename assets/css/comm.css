@@ -285,6 +285,10 @@ legend {
   background-image: url(../../images/comm/logo.png);
   background-size: cover;
   text-indent: -9999px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 #logo a {
   width: 100%;
@@ -387,7 +391,8 @@ img {
   margin: 0 auto;
   height: 100px;
   align-items: center;
-  gap: 50px;
+  justify-content: flex-end;
+  position: relative;
 }
 #header .nav-bg {
   position: absolute;
@@ -577,6 +582,9 @@ img {
   width: 55%;
 }
 .sec-02 img {
+  width: 100%;
+}
+.sec-02 .sec-tit-box {
   width: 100%;
 }
 
