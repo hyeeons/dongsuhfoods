@@ -289,6 +289,7 @@ legend {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  margin-left: 20px;
 }
 #logo a {
   width: 100%;
@@ -445,10 +446,22 @@ img {
   color: #ef383b;
 }
 
+@media screen and (max-width: 430px) {
+  #header .hd-inner {
+    background: #ffffff;
+  }
+}
 .main-video {
   width: 100%;
 }
 
+@media screen and (max-width: 430px) {
+  .main-video {
+    height: 1000px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
 .wrap {
   overflow: hidden;
 }

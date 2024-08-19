@@ -93,7 +93,11 @@
 
 // 헤더 header - 모바일
 @media screen and (max-width: $breakpoint-mb) {
-
+#header {
+	.hd-inner {
+		background: $white;
+	}
+}
 }
 
 
@@ -103,6 +107,15 @@
 // 메인비디오
 .main-video {
   width: 100%;
+}
+
+// 메인비디오 - 모바일
+@media screen and (max-width: $breakpoint-mb) {
+	.main-video {
+		height: 1000px;
+		object-fit: cover;
+	  }
+	  
 }
 
 // 메인
