@@ -29,6 +29,7 @@ $(function () {
 		$("#header").off("mouseenter mouseleave");
 		$(".nav-list-depth1 > a").off("mouseenter mouseleave");
 		$(".nav-list-depth1 > a").click(function(){
+			
 			$(this).closest(".nav-list-depth1").toggleClass("expanded");
 			const $navDepth2 = $(this).next(".nav-list-depth2"); 
 			if ($navDepth2.hasClass("expanded")){

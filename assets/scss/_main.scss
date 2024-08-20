@@ -368,25 +368,32 @@
     padding: 0;
     text-align: left;
   }
-  .sec-02-img {
-    width: 55%;
-  }
-  img {
-    width: 100%;
-  }
   .sec-tit-box {
-	width: 100%;
+	width: 68%;
   }
+  .sec-sub-tit {
+	text-align: left;
+  }
+  .sec-02-img {
+	img {
+		width: 100%;
+	}
+  }
+
 }
 
 // sec-02 모바일
 @media screen and (max-width: $breakpoint-mb) {
 	.sec-02 {
 		flex-direction: column;
+		align-items: flex-start;
 		padding-bottom: 142px;
 		.sec-02-img {
 			width: 100%;
 		  }
+		.sec-tit-box {
+			width: 100%;
+		}
 	}
 }
 
