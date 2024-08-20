@@ -41,6 +41,11 @@ $(function () {
 		})
 		
   	}
+		// footer
+		$(".goto-site").click(function () {
+			$(this).find(".goto-list").stop(true, true).slideToggle();
+			$(this).toggleClass("active");
+		})
 }
   header();
   $(window).on("resize", function () {

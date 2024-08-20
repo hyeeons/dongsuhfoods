@@ -975,4 +975,63 @@
 }
 
 
-
+// footer - 모바일
+@media screen and (max-width: $breakpoint-mb) {
+	.ft-wrap {
+		padding: 40px 22px;
+	}
+	.ft-box {
+		flex-direction: column;
+		gap: 30px;
+		span {
+			@include semibold-17;
+		}
+		.ft-goto {
+			flex-direction: column;
+			
+			.goto-site {
+				width: 100%;
+			}
+			.goto-list {
+				a { padding: 15px 20px;}
+			}
+		}
+	}
+	.ft-top-box {
+		hr {
+			display: none;
+		}
+		ul {
+			a {
+				@include semibold-15;
+			}
+		}
+		li {
+			&:nth-child(2) {
+				display: none;
+			}
+			&:nth-child(4) {
+				display: none;
+			}
+		}
+	}
+	.ft-adress{
+		display: none;
+	}
+	.ft-number {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		span {
+			display: block;
+			@include medium-17;
+		}
+	}
+	.ft-copyright {
+		margin-top: 10px;
+		span {
+			@include regular-13;
+		}
+	}
+	
+}
