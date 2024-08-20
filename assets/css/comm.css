@@ -526,6 +526,16 @@ img {
     transform: translateY(-50%);
     color: #333333;
   }
+  .nav-list .nav-list-depth1.expanded::before {
+    content: "\f106";
+    font-family: "Line Awesome Free";
+    font-size: 21px;
+    font-weight: 900;
+    position: absolute;
+    top: 36px;
+    right: 5%;
+    color: #333333;
+  }
   .nav-list .nav-list-depth1 a {
     text-align: left;
     padding: 24px 0;
@@ -538,6 +548,7 @@ img {
     max-height: 0;
     width: 100%;
     padding-top: 0;
+    padding-bottom: 10px;
     overflow: hidden;
     transition: all 0.3s ease;
   }

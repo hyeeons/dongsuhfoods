@@ -170,12 +170,14 @@
 		// box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.1);
 		position: relative;
 		@include icon-hd-down;
+		&.expanded {
+			@include icon-hd-up;
+		}
 		a {
 			text-align: left;
 			padding: 24px 0;
 			color: $txtDefault;
 			cursor: pointer;
-
 		}
 	}
 	.nav-list-depth2 {
@@ -184,6 +186,7 @@
 		max-height: 0;
 		width: 100%;
 		padding-top: 0;
+		padding-bottom: 10px;
 		overflow: hidden;
 		transition: all 0.3s ease;
 		&.expanded {
