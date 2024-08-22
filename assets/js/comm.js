@@ -1,6 +1,7 @@
 $(function () {
   // header
   function header(){
+	$("a").attr("href", "javascript:void(0)");
 
 
 	// PC버전

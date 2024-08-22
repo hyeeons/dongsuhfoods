@@ -45,6 +45,7 @@
 
 // sec-01 뉴스소식
 .sec-01 {
+	max-width: $maxwidth;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
