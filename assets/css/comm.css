@@ -348,7 +348,7 @@ img {
   border-radius: 10px;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
   .sec-tit-box {
     width: 100%;
     padding-bottom: 40px;
@@ -454,7 +454,7 @@ img {
   color: #ef383b;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
   #header .nav-bg {
     height: 0;
   }
@@ -573,7 +573,7 @@ img {
   width: 100%;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
   .main-video {
     height: 100vh;
     -o-object-fit: cover;
@@ -584,7 +584,7 @@ img {
   overflow: hidden;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
   .wrap {
     padding: 0 22px;
   }
@@ -657,7 +657,7 @@ img {
   padding-top: 10px;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
   .sec-01 {
     flex-direction: column;
   }
@@ -719,7 +719,7 @@ img {
   width: 100%;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
   .sec-02 {
     flex-direction: column;
     align-items: flex-start;
@@ -805,7 +805,7 @@ img {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
   .sec-03 {
     padding: 0 22px;
     height: 1030px;
@@ -1008,7 +1008,7 @@ img {
   padding-bottom: 5px;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
   .sec-04 {
     padding: 0 22px;
     height: auto;
@@ -1111,7 +1111,7 @@ img {
   opacity: 1;
   transform: translateY(0);
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
   [data-aos=tab-aos-pc] {
     transform: none;
   }
@@ -1126,7 +1126,7 @@ img {
 [data-aos=tab-aos-mb].aos-animate {
   transform: none;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
   [data-aos=tab-aos-mb] {
     opacity: 0;
     transform: translateY(50px);
@@ -1292,7 +1292,7 @@ img {
   padding-left: 20px;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 576px) {
   .ft-wrap {
     padding: 40px 22px;
   }
