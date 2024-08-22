@@ -5,7 +5,7 @@ $(function () {
 
 
 	// PC버전
-	  if (window.innerWidth >= 430) {
+	  if (window.innerWidth >= 576) {
 		  $("#header").mouseenter(function () {
 			$(".nav-bg").stop(true, true).slideDown(200);
 			$(".nav-list-depth2").stop(true, true).slideDown(200);
