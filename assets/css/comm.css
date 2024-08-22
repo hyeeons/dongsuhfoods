@@ -366,10 +366,6 @@ img {
     text-align: center;
   }
 }
-.position-wrap {
-  position: relative;
-}
-
 #header {
   position: absolute;
   top: 0;
@@ -398,6 +394,14 @@ img {
   align-items: center;
   justify-content: flex-end;
   position: relative;
+}
+#header .input-burger {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
 }
 #header .nav-bg {
   position: absolute;
@@ -451,22 +455,18 @@ img {
 }
 
 @media screen and (max-width: 430px) {
+  #header .nav-bg {
+    height: 0;
+  }
   #header .hd-inner {
     background: #ffffff;
   }
   #header .mb-burger {
     display: block;
   }
-  #header .input-burger {
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-  }
   #header .input-burger:checked ~ .gnb-wrap {
     transform: translateX(-100%);
+    transition: all 0.3s ease;
   }
   #header .input-burger:checked ~ .label-burger .bar:nth-child(1) {
     transform: translateY(4px) rotate(45deg);
@@ -483,7 +483,7 @@ img {
     gap: 5px;
     position: absolute;
     top: 50%;
-    right: 10px;
+    right: 25px;
     transform: translateY(-50%);
     cursor: pointer;
     z-index: 1000;
@@ -503,7 +503,7 @@ img {
     z-index: 10;
     background: #ffffff;
     width: 100%;
-    height: 1000px;
+    height: 100vh;
     padding-top: 110px;
   }
   .nav-list {
@@ -563,13 +563,17 @@ img {
     padding: 10px 0 10px 10px;
   }
 }
+.position-wrap {
+  position: relative;
+}
+
 .main-video {
   width: 100%;
 }
 
 @media screen and (max-width: 430px) {
   .main-video {
-    height: 1000px;
+    height: 100vh;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -584,7 +588,6 @@ img {
   }
 }
 .sec-01 {
-  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -1183,8 +1186,7 @@ img {
   max-width: 1200px;
   overflow: hidden;
   margin: 0 auto;
-  padding: 40px 0;
-  padding-bottom: 40px;
+  padding: 40px 0 50px 0;
 }
 .ft-wrap hr {
   display: block;
