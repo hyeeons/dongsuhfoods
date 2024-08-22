@@ -1,6 +1,8 @@
 $(function () {
   // header
   function header(){
+
+
 	// PC버전
 	  if (window.innerWidth >= 430) {
 		  $("#header").mouseenter(function () {
@@ -28,8 +30,11 @@ $(function () {
 		// 모바일 버전
 		$("#header").off("mouseenter mouseleave");
 		$(".nav-list-depth1 > a").off("mouseenter mouseleave");
+		$("#header").mouseenter(function(){
+			$(".hd-wrap").css("border-bottom", "none")
+		})
+
 		$(".nav-list-depth1 > a").click(function(){
-			
 			$(this).closest(".nav-list-depth1").toggleClass("expanded");
 			const $navDepth2 = $(this).next(".nav-list-depth2"); 
 			if ($navDepth2.hasClass("expanded")){
@@ -56,4 +61,4 @@ $(function () {
 });
 
 // aos
-AOS.init({ duration: 1000, easing: "ease-in-out", dealy: 0 });
+AOS.init({ duration: 1000, easing: "ease-in-out", delay: 0 });

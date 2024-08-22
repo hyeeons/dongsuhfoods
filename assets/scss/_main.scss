@@ -332,6 +332,7 @@
       cursor: pointer;
     }
   }
+  .txt-mb {display: none;}
 
   .img-box {
     display: none;
@@ -444,7 +445,7 @@
     }
 }
 .tab-5 {
-	p {
+	.bnr-text {
 		width: 100%;
 		text-align: center;
 		color: $white;
@@ -554,6 +555,14 @@
 	.txt-box {
 		padding-top: 10px;
 	}
+	.txt-mb {
+		display: block;
+		text-align: center;
+		@include regular-15;
+		padding-top: 5px;
+
+	}
+
 	
 	.tab-2 {
 		.bnr-img-mb {

@@ -458,8 +458,8 @@ img {
   #header .nav-bg {
     height: 0;
   }
-  #header .hd-inner {
-    background: #ffffff;
+  #header .hd-wrap {
+    border-bottom: none;
   }
   #header .mb-burger {
     display: block;
@@ -470,12 +470,14 @@ img {
   }
   #header .input-burger:checked ~ .label-burger .bar:nth-child(1) {
     transform: translateY(4px) rotate(45deg);
+    background: #333333;
   }
   #header .input-burger:checked ~ .label-burger .bar:nth-child(2) {
     display: none;
   }
   #header .input-burger:checked ~ .label-burger .bar:nth-child(3) {
     transform: translateY(-4px) rotate(-45deg);
+    background: #333333;
   }
   #header .label-burger {
     display: flex;
@@ -493,7 +495,7 @@ img {
     width: 23px;
     height: 3px;
     border-radius: 3px;
-    background: #333333;
+    background: #ffffff;
     transition: all 0.3s;
   }
   #header .gnb-wrap {
@@ -855,6 +857,9 @@ img {
 .sec-04 .sec-04-contents .txt-box {
   cursor: pointer;
 }
+.sec-04 .txt-mb {
+  display: none;
+}
 .sec-04 .img-box {
   display: none;
   width: 80%;
@@ -965,7 +970,7 @@ img {
   padding-bottom: 10px;
 }
 
-.tab-5 p {
+.tab-5 .bnr-text {
   width: 100%;
   text-align: center;
   color: #ffffff;
@@ -1067,6 +1072,14 @@ img {
   }
   .sec-04 .txt-box {
     padding-top: 10px;
+  }
+  .sec-04 .txt-mb {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 5px;
   }
   .sec-04 .tab-2 .bnr-img-mb {
     -o-object-position: 34% 0;
