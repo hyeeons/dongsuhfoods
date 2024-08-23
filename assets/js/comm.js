@@ -16,7 +16,7 @@ $(function () {
 		  $("#header").mouseleave(function () {
 			$(".nav-bg").stop(true, true).slideUp(200);
 			$(".nav-list-depth2").stop(true, true).slideUp(200);
-			$(".nav-list-depth1 > a").css("color", "#ffffff");
+			$(".header-main .nav-list-depth1 > a").css("color", "#ffffff");
 			$(".hd-wrap").css("border-bottom", "none");
 		  });
 		

@@ -454,6 +454,10 @@ img {
   color: #ef383b;
 }
 
+.header-sub .nav-list-depth1 a {
+  color: #333333;
+}
+
 @media screen and (max-width: 576px) {
   #header .nav-bg {
     height: 0;

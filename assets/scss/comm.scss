@@ -182,6 +182,15 @@ img {
 	}
   }
   
+  // 헤더 - 서브페이지
+  .header-sub {
+	.nav-list-depth1 {
+		a {
+			color: $txtDefault;
+		}
+	}
+  }
+
   // 헤더 header - 모바일
   @media screen and (max-width: $breakpoint-mb) {
   #header {
@@ -295,4 +304,4 @@ img {
   }
   }
 
-@import "main";
+@import "main", "coffeeclass";
