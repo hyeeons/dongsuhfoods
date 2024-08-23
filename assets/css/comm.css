@@ -1190,6 +1190,18 @@ img {
   visibility: visible;
 }
 
+@media screen and (max-width: 576px) {
+  .sec-05 .swiper-wrapper {
+    padding-bottom: 65px;
+  }
+  .sec-05 .swiper-slide {
+    opacity: 1;
+    transform: none;
+  }
+  .sec-05 .swiper-slide.swiper-slide-next {
+    transform: none;
+  }
+}
 #footer {
   position: relative;
 }

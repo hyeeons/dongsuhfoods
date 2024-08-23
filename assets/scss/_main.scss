@@ -672,7 +672,7 @@
   .swiper-wrapper {
 	position: relative;
 	padding: 30px 0 170px;
-}
+	}	
 	.swiper-slide {		
 	transform: scale(0.7) translateY(20%);
 	opacity: 0.5;
@@ -686,6 +686,23 @@
 	}
 	}
 
+}
+// sec-05 TV CF - 모바일
+
+@media screen and (max-width: $breakpoint-mb) {
+.sec-05 {
+	.swiper-wrapper {
+		padding-bottom: 65px;
+	}
+	.swiper-slide {
+		opacity: 1;
+		transform: none;
+		// transform: scale(1.0)translateY(20%);
+	}
+	.swiper-slide.swiper-slide-next {
+		transform: none;
+	}
+}
 }
 
 
