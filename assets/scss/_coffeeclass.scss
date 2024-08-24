@@ -1,10 +1,12 @@
+.header-sub {
+	background: $white;
+	border-bottom: 1px solid $gray_C3;
 
+}
 
 .sub-nav-list {
-	margin-top: 101px;
+	padding-top: 101px;
 	background: $beige;
-	border-top: 1px solid $gray_C3;
-
 
 	ul {
 		max-width: $maxwidth;

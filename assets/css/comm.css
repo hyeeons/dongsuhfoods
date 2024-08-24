@@ -1370,10 +1370,14 @@ img {
     line-height: normal;
   }
 }
+.header-sub {
+  background: #ffffff;
+  border-bottom: 1px solid #c3c3c3;
+}
+
 .sub-nav-list {
-  margin-top: 101px;
+  padding-top: 101px;
   background: #FDFCFA;
-  border-top: 1px solid #c3c3c3;
 }
 .sub-nav-list ul {
   max-width: 1200px;
