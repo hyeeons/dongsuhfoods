@@ -1,10 +1,10 @@
-// #u-skip {
-// 	display: none;
-// }
+
+
 .sub-nav-list {
 	margin-top: 101px;
 	background: $beige;
 	border-top: 1px solid $gray_C3;
+
 
 	ul {
 		max-width: $maxwidth;
@@ -15,7 +15,8 @@
 		a {
 			display: block;
 			text-align: center;
-			padding: 10px 20px;
+			padding: 15px 20px;
+			@include medium-17;
 		}
 		.active {
 			color: $primary;
@@ -27,11 +28,13 @@
 	position: relative;
 
 	.bnr-img {
-		height: 500px;
+		height: 400px;
 		img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
+			filter: brightness(28%);
+			border-radius: 0
 		}
 	}
 	.bnr-text {
@@ -50,4 +53,105 @@
 		margin-top: 10px;
 	}
 	}
+}
+.wrap {
+	background: $white;
+
+}
+.contents-wrap {
+	max-width: $maxwidth;
+	margin: 0 auto;
+	padding: 100px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 45px;
+.contents {
+	display: flex;
+	gap: 50px;
+	padding: 50px 70px;
+	background: $gray_F8;
+	
+	.class-box {
+		border: 1px solid $coffeeclass;
+		width: 36%;
+		height: 385px;
+	}
+	.class {
+		border: 1px solid $coffeeclass;
+		height: 96%;
+		margin: 6px;
+		position: relative;
+		img {
+			display: none;
+			position: absolute;
+			top: -50px;
+			left: 50%;
+			transform: translateX(-50%);
+			background: $gray_F8;
+			padding: 0 10px;
+		}
+		.class-number {
+			@include semibold-21;
+			color: $coffeeclass;
+			text-align: center;
+			padding-top: 40px;
+		}
+		
+	}
+	.class-text {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		align-items: center;
+		padding-top: 20%;
+		// justify-content: center
+		h2 {
+			@include semibold-41;
+			text-align: center
+		}
+		p {
+			@include regular-17;
+			text-align: center;
+			line-height: 1.5;
+		}
+	}
+	.text-box {
+		width: 74%;
+		padding: 5% 0;
+		position: relative;
+		h3 {
+			@include semibold-27;
+			text-align: left;
+		}
+		.class-list {
+			padding-top: 10px;
+			li {
+				padding: 3px 0;
+			}
+		}
+		.start-btn {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			border: 1px solid $txtDefault;
+			background: $white;
+			transition: all 0.5s ease;
+			a {
+				display: block;
+				padding: 10px 43px;
+				@include semibold-21;
+				letter-spacing: 3px;
+				transition: all 0.5s ease;
+
+			}
+			&:hover {
+				background: $coffeeclass;
+				border: none;
+				a {
+					color: $white;
+				}
+			}
+		}
+	}
+}
 }
