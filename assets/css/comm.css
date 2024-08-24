@@ -849,7 +849,7 @@ img {
   position: relative;
 }
 .sec-04 h3 {
-  color: #c3c3c5;
+  color: #c3c3c3;
 }
 .sec-04 .sec-tit-box br {
   display: none;
@@ -919,7 +919,7 @@ img {
 .tab-3 .tab-box .top-box {
   height: 46%;
   position: relative;
-  border: 1px solid #c3c3c5;
+  border: 1px solid #c3c3c3;
   margin-bottom: 10px;
 }
 .tab-3 .tab-box .top-box .title {
@@ -1369,4 +1369,54 @@ img {
     font-weight: 400;
     line-height: normal;
   }
+}
+.sub-nav-list {
+  margin-top: 101px;
+  background: #FDFCFA;
+  border-top: 1px solid #c3c3c3;
+}
+.sub-nav-list ul {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sub-nav-list ul a {
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+}
+.sub-nav-list ul .active {
+  color: #ef383b;
+}
+
+.sub-banner {
+  position: relative;
+}
+.sub-banner .bnr-img {
+  height: 500px;
+}
+.sub-banner .bnr-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sub-banner .bnr-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sub-banner .bnr-text img {
+  width: 344px;
+}
+.sub-banner .bnr-text p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 1.7;
+  margin-top: 10px;
 }/*# sourceMappingURL=comm.css.map */
