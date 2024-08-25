@@ -1,3 +1,5 @@
+// 서브페이지 상단 
+
 .header-sub {
 	background: $white;
 	border-bottom: 1px solid $gray_C3;
@@ -44,8 +46,13 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	img {
-		width: 344px;
+		display: block;
+		width: 75%;
+		margin: 0 auto;
 	}
 	p {
 		text-align: center;
@@ -56,6 +63,32 @@
 	}
 	}
 }
+
+@media screen and (max-width: $breakpoint-mb) {
+	.sub-banner {
+		padding-top: 101px;
+		.bnr-img {
+			height: 300px;
+		}
+		.bnr-text {
+			transform: translate(-50%, -30%);
+
+			img {
+				width: 100%;
+			}
+			p {
+				display: block;
+				width: 150%;
+				@include regular-15;
+				line-height: 1.7;
+
+			}
+		}
+	}
+}
+
+
+// 서브페이지 메인 컨텐츠 화면
 .wrap {
 	background: $white;
 
