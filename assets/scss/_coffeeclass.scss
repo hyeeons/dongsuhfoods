@@ -64,6 +64,7 @@
 	}
 }
 
+// 서브페이지 상단 카테고리 배너부분 - 모바일
 @media screen and (max-width: $breakpoint-mb) {
 	.sub-banner {
 		padding-top: 101px;
@@ -85,6 +86,7 @@
 			}
 		}
 	}
+
 }
 
 
@@ -114,7 +116,7 @@
 	.class {
 		border: 1px solid $coffeeclass;
 		height: 96%;
-		margin: 6px;
+		margin: 8px;
 		position: relative;
 		img {
 			display: none;
@@ -189,4 +191,20 @@
 		}
 	}
 }
+}
+
+// 서브페이지 - 메인컨텐츠 부분 - 모바일
+@media screen and (max-width: $breakpoint-mb) {
+	.contents-wrap {
+		.contents {
+			padding: 0;
+			.class-box {
+				width: 100%;
+			}
+			.text-box {
+				display: none;
+			}
+		}
+	}
+
 }

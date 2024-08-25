@@ -1491,7 +1491,7 @@ img {
 .contents-wrap .contents .class {
   border: 1px solid #d0021b;
   height: 96%;
-  margin: 6px;
+  margin: 8px;
   position: relative;
 }
 .contents-wrap .contents .class img {
@@ -1570,4 +1570,16 @@ img {
 }
 .contents-wrap .contents .text-box .start-btn:hover a {
   color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .contents-wrap .contents {
+    padding: 0;
+  }
+  .contents-wrap .contents .class-box {
+    width: 100%;
+  }
+  .contents-wrap .contents .text-box {
+    display: none;
+  }
 }/*# sourceMappingURL=comm.css.map */
