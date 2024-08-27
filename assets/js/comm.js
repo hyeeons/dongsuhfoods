@@ -3,7 +3,7 @@ $(function () {
 	$("a").on("click", function(event){
 		const href = $(this).attr("href");
 		if (href === "#") {
-			event.preventDefault();;
+			event.preventDefault();
 		} 
 	})
 
