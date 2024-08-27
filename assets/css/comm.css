@@ -540,9 +540,11 @@ img {
   }
   .nav-list .nav-list-depth1 a {
     text-align: left;
-    padding: 24px 0;
+    padding: 24px 0 14px 0;
     color: #333333;
     cursor: pointer;
+    font-size: 19px;
+    font-weight: 600;
   }
   .nav-list .nav-list-depth2 {
     display: block;
@@ -564,7 +566,10 @@ img {
   }
   .nav-list .nav-list-depth2 a {
     width: 100%;
-    padding: 10px 0 10px 10px;
+    padding: 7px 0 10px 10px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
   }
 }
 .header-sub .nav-list-depth1 a {
