@@ -540,7 +540,7 @@ img {
   }
   .nav-list .nav-list-depth1 a {
     text-align: left;
-    padding: 24px 0 14px 0;
+    padding: 24px 0;
     color: #333333;
     cursor: pointer;
     font-size: 19px;
@@ -553,13 +553,13 @@ img {
     opacity: 0;
     width: 100%;
     padding-top: 0;
-    padding-bottom: 10px;
     overflow: hidden;
     transition: all 0.3s ease;
   }
   .nav-list .nav-list-depth2.active {
     max-height: 1000px;
     opacity: 1;
+    padding-bottom: 10px;
   }
   .nav-list .nav-list-depth2 li {
     width: 100%;

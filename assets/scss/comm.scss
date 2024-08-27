@@ -266,7 +266,7 @@ img {
 		  }
 		  a {
 			  text-align: left;
-			  padding: 24px 0 14px 0;
+			  padding: 24px 0;
 			  color: $txtDefault;
 			  cursor: pointer;
 			  @include semibold-19;
@@ -279,12 +279,13 @@ img {
 		  opacity: 0;
 		  width: 100%;
 		  padding-top: 0;
-		padding-bottom: 10px;
+		
 		  overflow: hidden;
 		  transition: all 0.3s ease;
 		  &.active {
 			  max-height: 1000px;
 			  opacity: 1;
+			  padding-bottom: 10px;
   
 		  }
   
