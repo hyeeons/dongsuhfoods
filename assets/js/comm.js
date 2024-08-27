@@ -36,15 +36,21 @@ $(function () {
 		})
 
 		$(".nav-list-depth1 > a").click(function(){
-			$(this).closest(".nav-list-depth1").toggleClass("expanded");
-			const $navDepth2 = $(this).next(".nav-list-depth2"); 
-			if ($navDepth2.hasClass("expanded")){
-				$navDepth2.removeClass("expanded");
-			} else {
-				$(".nav-list-depth2").removeClass("expanded");
-				$navDepth2.addClass("expanded");
-			}	
+			$(this).next(".nav-list-depth2").toggleClass("active");
+			$(this).parents(".nav-list-depth1").toggleClass("active");
 		})
+
+
+		// $(".nav-list-depth1 > a").click(function(){
+		// 	$(this).closest(".nav-list-depth1").toggleClass("expanded");
+		// 	const $navDepth2 = $(this).next(".nav-list-depth2"); 
+		// 	if ($navDepth2.hasClass("expanded")){
+		// 		$navDepth2.removeClass("expanded");
+		// 	} else {
+		// 		$(".nav-list-depth2").removeClass("expanded");
+		// 		$navDepth2.addClass("expanded");
+		// 	}	
+		// })
 		
   	}
 		// footer
