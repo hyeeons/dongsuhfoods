@@ -4,8 +4,7 @@ $(function () {
 		const href = $(this).attr("href");
 		if (href === "#") {
 			event.preventDefault();;
-		} else if (href && href !== "#") {
-		}
+		} 
 	})
 
 
