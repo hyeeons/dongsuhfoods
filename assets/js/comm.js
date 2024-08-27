@@ -1,9 +1,17 @@
 $(function () {
+	// a태그 처리
+	$("a").on("click", function(event){
+		const href = $(this).attr("href");
+		if (href === "#") {
+			event.preventDefault();;
+		} else if (href && href !== "#") {
+		}
+	})
+
+
+
   // header
   function header(){
-	$("a").attr("href", "javascript:void(0)");
-
-
 	// PC버전
 	  if (window.innerWidth >= 576) {
 		  $("#header").mouseenter(function () {
