@@ -1482,6 +1482,7 @@ img {
   gap: 50px;
   padding: 50px 70px;
   background: #F8F8F8;
+  position: relative;
 }
 .contents-wrap .contents .class-box {
   border: 1px solid #d0021b;
@@ -1534,7 +1535,6 @@ img {
 .contents-wrap .contents .text-box {
   width: 74%;
   padding: 5% 0;
-  position: relative;
 }
 .contents-wrap .contents .text-box h3 {
   font-size: 27px;
@@ -1547,15 +1547,15 @@ img {
 .contents-wrap .contents .text-box .class-list li {
   padding: 3px 0;
 }
-.contents-wrap .contents .text-box .start-btn {
+.contents-wrap .contents .start-btn {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  border: 1px solid #333333;
+  right: 5%;
+  bottom: 10%;
+  border: 1px solid #c3c3c3;
   background: #ffffff;
   transition: all 0.5s ease;
 }
-.contents-wrap .contents .text-box .start-btn a {
+.contents-wrap .contents .start-btn a {
   display: block;
   padding: 10px 43px;
   font-size: 21px;
@@ -1564,11 +1564,11 @@ img {
   letter-spacing: 3px;
   transition: all 0.5s ease;
 }
-.contents-wrap .contents .text-box .start-btn:hover {
+.contents-wrap .contents .start-btn:hover {
   background: #d0021b;
   border: none;
 }
-.contents-wrap .contents .text-box .start-btn:hover a {
+.contents-wrap .contents .start-btn:hover a {
   color: #ffffff;
 }
 
@@ -1581,5 +1581,16 @@ img {
   }
   .contents-wrap .contents .text-box {
     display: none;
+  }
+  .contents-wrap .contents .start-btn {
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .contents-wrap .contents .class2 {
+    padding-top: 12%;
+  }
+  .contents-wrap .contents .class-text h2 {
+    font-size: 35px;
+    font-weight: 600;
   }
 }/*# sourceMappingURL=comm.css.map */

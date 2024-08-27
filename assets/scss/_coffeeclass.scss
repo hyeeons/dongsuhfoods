@@ -107,6 +107,7 @@
 	gap: 50px;
 	padding: 50px 70px;
 	background: $gray_F8;
+	position: relative;
 	
 	.class-box {
 		border: 1px solid $coffeeclass;
@@ -155,7 +156,7 @@
 	.text-box {
 		width: 74%;
 		padding: 5% 0;
-		position: relative;
+		// position: relative;
 		h3 {
 			@include semibold-27;
 			text-align: left;
@@ -166,27 +167,28 @@
 				padding: 3px 0;
 			}
 		}
-		.start-btn {
-			position: absolute;
-			right: 0;
-			bottom: 0;
-			border: 1px solid $txtDefault;
-			background: $white;
-			transition: all 0.5s ease;
-			a {
-				display: block;
-				padding: 10px 43px;
-				@include semibold-21;
-				letter-spacing: 3px;
-				transition: all 0.5s ease;
 
-			}
-			&:hover {
-				background: $coffeeclass;
-				border: none;
-				a {
-					color: $white;
-				}
+	}
+	.start-btn {
+		position: absolute;
+		right: 5%;
+		bottom: 10%;
+		border: 1px solid $gray_C3;
+		background: $white;
+		transition: all 0.5s ease;
+		a {
+			display: block;
+			padding: 10px 43px;
+			@include semibold-21;
+			letter-spacing: 3px;
+			transition: all 0.5s ease;
+
+		}
+		&:hover {
+			background: $coffeeclass;
+			border: none;
+			a {
+				color: $white;
 			}
 		}
 	}
@@ -201,8 +203,21 @@
 			.class-box {
 				width: 100%;
 			}
+		
 			.text-box {
 				display: none;
+			}
+			.start-btn {
+				right: 50%;
+				transform: translateX(50%);
+			}
+			.class2 {
+				padding-top: 12%;
+			}
+			.class-text {
+				h2 {
+					@include semibold-35;
+				}
 			}
 		}
 	}
