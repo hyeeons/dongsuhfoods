@@ -773,6 +773,9 @@ img {
   font-size: 31px;
   top: 27%;
 }
+.sec-03 .more-tit a:hover {
+  color: #ef383b;
+}
 .sec-03 .move-container {
   display: flex;
   gap: 25px;

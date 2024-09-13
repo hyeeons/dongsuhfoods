@@ -219,6 +219,9 @@
 		font-size: 31px;
 		top: 27%;
 	  }
+	  &:hover {
+		color: $primary;
+	  }
     }
   }
   .move-container {
