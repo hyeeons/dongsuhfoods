@@ -974,13 +974,13 @@ img {
   height: 50%;
 }
 .tab-3 .tab-box .btm-box a {
-  display: block;
+  display: inline-block;
 }
 .tab-3 .tab-box .btm-box a:nth-child(2) {
   border-bottom: 1px solid #E2AB03;
 }
 .tab-3 .tab-box .btm-box span {
-  display: block;
+  display: inline-block;
   font-size: 19px;
   font-weight: 600;
   padding: 8px 0;
