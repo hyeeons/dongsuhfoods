@@ -438,10 +438,10 @@
           @include semibold-19;
           padding: 8px 0;
         }
-        p {
+        .web-txt {
           width: 80%;
           @include medium-13;
-          padding-bottom: 10px;
+		  padding: 0 0 10px 0;
         }
       }
     }
