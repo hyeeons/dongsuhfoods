@@ -1208,6 +1208,9 @@ img {
 .sec-05 .swiper-slide.swiper-slide-next .more-tit {
   visibility: visible;
 }
+.sec-05 .swiper-pagination-bullet-active {
+  background: #ef383b;
+}
 
 @media screen and (max-width: 576px) {
   .sec-05 {

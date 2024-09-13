@@ -688,6 +688,9 @@
 		visibility: visible;
 	}
 	}
+	.swiper-pagination-bullet-active {
+		background: $primary; 
+	  }
 
 }
 // sec-05 TV CF - 모바일
