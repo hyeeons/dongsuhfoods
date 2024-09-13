@@ -436,7 +436,8 @@
             border-bottom: 1px solid $borderOrange;
           }
         }
-        p {
+        span {
+			display: block;
           @include semibold-19;
           padding: 8px 0;
         }
