@@ -642,6 +642,9 @@
 }
 .sec-05 {
 	padding-bottom: 150px;
+	br {
+		display: none;
+	}
 .img-box {
 	display: block;
 	width: 100%;
@@ -698,6 +701,7 @@
 @media screen and (max-width: $breakpoint-mb) {
 .sec-05 {
 	padding-bottom: 85px;
+	br {display: block;}
 	.swiper-wrapper {
 		padding-bottom: 65px;
 	}
